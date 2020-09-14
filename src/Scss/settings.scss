@@ -1,0 +1,263 @@
+//  Foundation for Sites Settings
+//  -----------------------------
+
+
+// @import 'util/util';
+// @import 'util/mixins';
+// // 1. Global
+// // ---------
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+$global-font-size: 16px;
+$global-width: rem-calc(1400);
+$global-lineheight: 1.6;
+$foundation-palette: (
+  primary: #91D5D8,
+  secondary: #FFCBAB,
+  success: #97E1BD,
+  warning: #ffae00,
+  alert: #cc4b37,
+);
+$light-gray: #e6e6e6;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
+$black: #0a0a0a;
+$white: #fefefe;
+$body-background: $white;
+$body-font-color: $black;
+$body-font-family: Lato, Roboto, Arial, sans-serif;
+$body-antialiased: true;
+$global-margin: 1rem;
+$global-padding: 1rem;
+$global-position: 1rem;
+$global-weight-normal: 300;
+$global-weight-bold: 400;
+$global-radius: 5px;
+$global-menu-padding: 0.7rem 1rem;
+$global-menu-nested-margin: 1rem;
+$global-text-direction: ltr;
+$global-flexbox: true;
+$global-button-cursor: auto;
+$global-color-pick-contrast-tolerance: 0;
+$print-transparent-backgrounds: true;
+$print-hrefs: true;
+
+ @include add-foundation-colors;
+
+// 2. Breakpoints
+// --------------
+
+$breakpoints: (
+  small: 0,
+  medium: 640px,
+  large: 1024px,
+  xlarge: 1200px,
+  xxlarge: 1440px,
+);
+// 3. The Grid
+// -----------
+
+$grid-row-width: $global-width;
+$grid-column-count: 12;
+$grid-column-gutter: (
+  small: 20px,
+  medium: 30px,
+);
+$grid-column-align-edge: true;
+$grid-column-alias: 'columns';
+$block-grid-max: 8;
+
+// 4. Base Typography
+// ------------------
+$header-font-family: $body-font-family;
+$header-font-weight: $global-weight-bold;
+$header-font-style: normal;
+$header-color: inherit;
+$header-lineheight: 1.7;
+$header-margin-bottom: 0.5rem;
+$header-styles: (
+  small: (
+    'h1': ('font-size': 24),
+    'h2': ('font-size': 20),
+    'h3': ('font-size': 19),
+    'h4': ('font-size': 18),
+    'h5': ('font-size': 17),
+    'h6': ('font-size': 16),
+  ),
+  medium: (
+    'h1': ('font-size': 48),
+    'h2': ('font-size': 48),
+    'h3': ('font-size': 40),
+    'h4': ('font-size': 30),
+    'h5': ('font-size': 20),
+    'h6': ('font-size': 18),
+  ),
+);
+$header-text-rendering: optimizeLegibility;
+$small-font-size: 80%;
+$header-small-font-color: $medium-gray;
+$paragraph-lineheight: 1.6;
+$paragraph-margin-bottom: 1rem;
+$paragraph-text-rendering: optimizeLegibility;
+$enable-code-inline: true;
+$anchor-color: red;
+$anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
+$anchor-text-decoration: none;
+$anchor-text-decoration-hover: none;
+$hr-width: $global-width;
+$hr-border: 1px solid $medium-gray;
+$hr-margin: rem-calc(20) auto;
+$enable-cite-block: true;
+
+// 5. Typography Helpers
+// ---------------------
+
+$lead-font-size: $global-font-size * 1.25;
+$lead-lineheight: 1.6;
+$subheader-lineheight: 1.4;
+$subheader-color: $dark-gray;
+$subheader-font-weight: $global-weight-normal;
+$subheader-margin-top: 0.2rem;
+$subheader-margin-bottom: 0.5rem;
+$stat-font-size: 2.5rem;
+$cite-color: $dark-gray;
+$cite-font-size: rem-calc(13);
+$cite-pseudo-content: '\2014 \0020';
+
+
+// 11. Button
+// ----------
+
+$button-font-family: inherit;
+$button-font-weight: null;
+$button-padding: 0.85em 1em;
+$button-margin: 0 0 $global-margin 0;
+$button-fill: solid;
+$button-background: $primary-color;
+$button-background-hover: scale-color($button-background, $lightness: -15%);
+$button-color: $white;
+$button-color-alt: $black;
+$button-radius: $global-radius;
+$button-border: 1px solid transparent;
+$button-hollow-border-width: 1px;
+$button-sizes: (
+  tiny: 0.6rem,
+  small: 0.75rem,
+  default: 0.9rem,
+  large: 1.25rem,
+);
+$button-palette: $foundation-palette;
+$button-opacity-disabled: 0.25;
+$button-background-hover-lightness: -20%;
+$button-hollow-hover-lightness: -50%;
+$button-transition: background-color 0.25s ease-out, color 0.25s ease-out;
+$button-responsive-expanded: false;
+
+// 12. Button Group
+// ----------------
+
+$buttongroup-margin: 1rem;
+$buttongroup-spacing: 1px;
+$buttongroup-child-selector: '.button';
+$buttongroup-expand-max: 6;
+$buttongroup-radius-on-each: true;
+
+
+// 1
+// 15. Close Button
+// ----------------
+
+$closebutton-position: right top;
+$closebutton-z-index: 10;
+$closebutton-default-size: medium;
+$closebutton-offset-horizontal: (
+  small: 0.66rem,
+  medium: 1rem,
+);
+$closebutton-offset-vertical: (
+  small: 0.33em,
+  medium: 0.5rem,
+);
+$closebutton-size: (
+  small: 1.5em,
+  medium: 2em,
+);
+$closebutton-lineheight: 1;
+$closebutton-color: $dark-gray;
+$closebutton-color-hover: $black;
+
+// 17. Dropdown
+// ------------
+
+$dropdown-padding: 1rem;
+$dropdown-background: $body-background;
+$dropdown-border: 1px solid $medium-gray;
+$dropdown-font-size: 1rem;
+$dropdown-width: 300px;
+$dropdown-radius: $global-radius;
+$dropdown-sizes: (
+  tiny: 100px,
+  small: 200px,
+  large: 400px,
+);
+
+// 18. Dropdown Menu
+// -----------------
+
+$dropdownmenu-arrows: true;
+$dropdownmenu-arrow-color: $anchor-color;
+$dropdownmenu-arrow-size: 6px;
+$dropdownmenu-arrow-padding: 1.5rem;
+$dropdownmenu-min-width: 200px;
+$dropdownmenu-background: null;
+$dropdownmenu-submenu-background: $white;
+$dropdownmenu-padding: $global-menu-padding;
+$dropdownmenu-nested-margin: 0;
+$dropdownmenu-submenu-padding: $dropdownmenu-padding;
+$dropdownmenu-border: 1px solid $medium-gray;
+$dropdown-menu-item-color-active: get-color(primary);
+$dropdown-menu-item-background-active: transparent;
+
+// 21. Label
+// ---------
+
+$label-background: $primary-color;
+$label-color: $white;
+$label-color-alt: $black;
+$label-palette: $foundation-palette;
+$label-font-size: 0.8rem;
+$label-padding: 0.33333rem 0.5rem;
+$label-radius: $global-radius;
+
+
+
+// 55. Top Bar
+// -----------
+
+$topbar-padding: 0.5rem;
+$topbar-background: $light-gray;
+$topbar-submenu-background: $topbar-background;
+$topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
+$topbar-input-width: 200px;
+$topbar-unstack-breakpoint: medium;
+
+// 56. Xy Grid
+// -----------
+
+$xy-grid: true;
+$grid-container: $global-width;
+$grid-columns: 12;
+$grid-margin-gutters: (
+  small: 20px,
+  medium: 30px
+);
+$grid-padding-gutters: $grid-margin-gutters;
+$grid-container-padding: $grid-padding-gutters;
+$grid-container-max: $global-width;
+$xy-block-grid-max: 8;
+
+$footer-height: rem-calc(60px);
+$footer-extra-height: rem-calc(255px);
+$footer-background-bottom: #0a0a0a;
+$footer-background: #1a1a1a;
+$footer-color: $white;

@@ -1,0 +1,18 @@
+
+nav{
+    align-items: center;
+    border-bottom: 1px solid $black;
+    li{
+      color: $black;
+    }
+    h3{
+      color: black;
+    }
+  }
+  
+  .nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }

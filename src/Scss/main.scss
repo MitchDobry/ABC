@@ -1,0 +1,94 @@
+header {
+    background: linear-gradient(#aed2de , white );
+    background-repeat: no-repeat;
+    overflow: visible;
+    position: relative;
+    background-position: center;
+    background-size:contain;
+    .bg{
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .cell {
+  
+      .button {
+        margin-bottom: 0;
+        min-width: 17rem;
+      }
+  
+      p:last-child {
+        margin-bottom: 0;
+      }
+  
+      &.right {
+        // background-image: url(../../assets/images/header_v2.svg);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: bottom;
+        position: relative;
+       height: 33rem;
+        right: 0;
+        padding: 0;
+      }
+  
+      &.left {
+        background-color: #fff;
+        box-shadow:rem-calc(10px 10px 12px 0px) rgba(87, 87, 87, 0.1);
+        padding: 62px 21px 36px 21px;
+        border-radius: 25px;
+        max-width: 538px;
+        text-align: center;
+        .logos{
+          // background-image: url(../../assets/images/360_title.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+          height:rem-calc(48px);
+          position: relative;
+          width:100%;
+          margin-bottom: rem-calc(28px);
+        }
+        h4{
+          font-weight: 300;
+        }
+      }
+    }
+  
+    @include breakpoint(small only) {
+      padding-top: 0.3rem;
+      padding-bottom: 0;
+      .bg{
+        margin-top:rem-calc(-70px);
+      }
+      .cell {
+        &.left, &.right {
+          text-align: center;
+        }
+        
+  
+        &.left {
+          box-shadow: 0;
+          border-radius: 0;
+          background-color: transparent;
+          box-shadow: none;
+          padding-top: 5rem;
+          .button{
+            min-width: 13rem;
+            margin-bottom: 0.7rem;
+          }
+          .logos{
+            height: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 0.75rem;
+          }
+        }
+  
+        &.right {
+          height: 22rem;
+        }
+      }
+    }
+  }
