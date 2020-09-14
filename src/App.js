@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Nav from './Nav'
 import Footer from './Footer'
 import Section from './Section'
@@ -38,7 +38,7 @@ const Home = () => (
   <header>
   <div className="bg">
   <div className="grid-container">
-    <div className="grid-x grid-padding-x grid-margin-x align-middle">
+    <div className="grid-x grid-padding-x grid-margin-x grid-padding-y align-middle">
       <div className="cell hide">
         <h1>ABC Terapii Dziecka</h1>
       </div>
@@ -59,26 +59,28 @@ const Home = () => (
   </div>
   </header>
   <Section>
-  <div className="cell small-12 medium-5">
+  <div style={{marginBottom:'0', paddingBottom:'0'}} className="cell text-center">
+    <h2>o nas</h2>
+  </div>
+  <div className="cell medium-12 large-6">
                     <h3>Nowoczesy  ośrodek terapii
                     dziecięcej</h3>
-                    <p>
+                    <h6>
                     Indywidualne podejście, kreatywność terapeutów,
                     specjalnie zaadaptowane sale oraz przemyślany program ćwiczeń
                     da Państwu satysfakcję i przekonanie, że podjęliście właściwą
                     decyzję wybierając naszą ofertę.<br></br> <strong>ABC TERAPII DZIECKA</strong> to miejsce
                     dla Ciebie i Twojej pociechy. 
-
-                    </p>
-                    <h6 className="subheader">mgr Marta Dusińska</h6>
-                    <h5>Przekonaj się już teraz!</h5>
-                    <div  className="button">
+                    </h6>
+                    
+                    
+                    <div style={{marginTop:'2rem'}}  className="button">
                       <a href="mailto:marta.dusinska@gmail.com">
-                        <h5>napisz</h5>
+                        <h5>napisz do nas</h5>
                       </a> 
                     </div>
                   </div>
-                  <div className="cell small-12 medium-6">
+                  <div className="cell hide-small-only  large-6">
                     <img src={Bg} alt="Ośrodek rehabilitacji"></img>
                   </div>
   </Section>

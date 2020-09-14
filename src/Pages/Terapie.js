@@ -34,7 +34,6 @@ class Terapie extends React.Component {
               <li>Przepuklina oponowo-rdzeniowa</li>
               <li>inne zaburzenia rozwoju ruchowego</li>
           </ul>
-          <h5 className="therapy-price">100PLN / 45min<br/> 130PLN / 60min</h5>
         </div>
       </Section>
       <Section>
@@ -48,7 +47,6 @@ class Terapie extends React.Component {
               <li>Porażenie splotu barkowego</li>
               <li>Inne zaburzenia ośrodkowego układu nerwowego</li>
           </ul>
-          <h5 className="therapy-price">100PLN / 45min<br/> 130PLN / 60min</h5>
         </div>
         <div className="cell small-12 medium-3">
           <img className="img_therapy" alt="reh"></img>
@@ -68,7 +66,6 @@ class Terapie extends React.Component {
               <li>Opóźnienie rozwoju psychomotorycznego</li>
               <li>Zaburzenia mowy</li>
           </ul>
-          <h5 className="therapy-price">  100PLN / 45 min</h5>
         </div>
       </Section>
       <Section>
@@ -95,7 +92,6 @@ class Terapie extends React.Component {
            <p>
            wkładki ortopedyczne są ważnym elementem wspomagania terapii nieprawidłowego ustawienia stóp (a co za tym idzie całej postawy) u dzieci. Pomagają utrwalać efekty uzyskane podczas terapii oraz zapobiegają kompensacjom kończyn dolnych i tułowia.
            </p>
-          <h5 className="therapy-price">  100PLN / 45 min</h5>
         </div>
       </Section>
       <Section>
@@ -140,7 +136,6 @@ class Terapie extends React.Component {
              <li>Koślawość/ szpotawość kolan</li>
              <li>Inne wady postawy</li>
            </ul>
-          <h5 className="therapy-price">  100PLN / 45 min</h5>
         </div>
       </Section>
       <Section>
@@ -173,7 +168,6 @@ class Terapie extends React.Component {
              <li>Profilaktyka logopedyczna</li>
              <li>Zajęcia logarytmiczne</li>
            </ul>
-          <h5 className="therapy-price">  100PLN / 45 min</h5>
         </div>
       </Section>
       <Section>
@@ -205,7 +199,6 @@ class Terapie extends React.Component {
              <li>Upośledzenie umysłowe</li>
              <li>Trening interpersonalny dla młodzieży</li>
            </ul>
-          <h5 className="therapy-price">  100PLN / 45 min</h5>
         </div>
       </Section>
       <Section>

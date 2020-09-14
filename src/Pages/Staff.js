@@ -20,10 +20,10 @@ class Staff extends React.Component {
         </Section>
        
         <Section>
-        <div className="cell small-12 medium-3 medium-offset-1">
+        <div className="cell medium-5 large-4 large-offset-1">
           <img className="staff-photo" alt="staff"></img>
         </div>
-        <div className="cell small-12 medium-7">
+        <div className="cell medium-7">
             <h3>Marta Dusińska</h3>
             <h6 >
             Profesjonalną rehabilitacją zajmuję się od 2004 r. Jestem osobą piekielnie aktywną zawodowo. Uwielbiam pracę z dziećmi. Rzadko zdarza się połączyć pasję z pracą. Mi się to udało.
@@ -57,10 +57,10 @@ class Staff extends React.Component {
         </div>
       </Section>
       <Section>
-        <div className="cell small-12 medium-3 medium-offset-1">
+        <div className="cell medium-5 large-4 large-offset-1">
           <img className="staff-photo" alt="staff"></img>
         </div>
-        <div className="cell small-12 medium-7">
+        <div className="cell medium-7">
             <h3>Sylwia Gilewska - Matysiak</h3>
             <h6 >
             Jestem absolwentką Szkoły Wyższej Psychologii Społecznej (obecnie Uniwersytet SWPS) na kierunku
@@ -100,10 +100,10 @@ class Staff extends React.Component {
         </div>
       </Section>
       <Section>
-        <div className="cell small-12 medium-3 medium-offset-1">
+        <div className="cell medium-5 large-4 large-offset-1">
           <img className="staff-photo" alt="staff"></img>
         </div>
-        <div className="cell small-12 medium-7">
+        <div className="cell medium-7">
             <h3>Aleksandra Ciesielska</h3>
             <h6 >
             Jestem absolwentką studiów magisterskich na kierunku pedagogika specjalna, specjalność: logopedia na Akademii Pedagogiki Specjalnej im. Marii Grzegorzewskiej w Warszawie. Doświadczenie zawodowe zdobywałam odbywając liczne praktyki w placówkach oświatowych i medycznych oraz pracując jako logopeda w przedszkolach publicznych.
@@ -132,10 +132,10 @@ class Staff extends React.Component {
         </div>
       </Section>
       <Section>
-      <div className="cell small-12 medium-3 medium-offset-1">
+      <div className="cell medium-5 large-4 large-offset-1">
           <img className="staff-photo" alt="staff"></img>
         </div>
-        <div className="cell small-12 medium-7">
+        <div className="cell medium-7">
             <h3>Aleksandra Ciesielska</h3>
             <h6 >
               Jestem magistrem fizjoterapii, absolwentką Wyższej Szkoły Rehabilitacji oraz terapeutą SI, absolwentką studiów podyplomowych Wyższej Szkoły Pedagogiki i Administracji. 
@@ -149,10 +149,10 @@ class Staff extends React.Component {
         </div>
       </Section>
       <Section>
-        <div className="cell small-12 medium-3 medium-offset-1">
+        <div className="cell medium-5 large-4 large-offset-1">
           <img className="staff-photo" alt="staff"></img>
         </div>
-        <div className="cell small-12 medium-7">
+        <div className="cell medium-7">
             <h3>Agnieszka Czarnecka</h3>
             <h6 >
               Z wykształcenia jestem pedagogiem specjalnym, wiedzę i praktykę zdobywałam na Akademii Pedagogiki Specjalnej w Warszawie. Z dziećmi niepełnosprawnymi pracuję od 8 lat. W pracy kieruję się dobrem dzieci, staram się dostrzec ich problemy i dostosować terapię do ich potrzeb.

@@ -1,7 +1,7 @@
 
 nav{
     align-items: center;
-    border-bottom: 1px solid $black;
+    border-bottom: 1px solid $footer-background;
     li{
       color: $black;
     }
@@ -15,4 +15,10 @@ nav{
     justify-content: space-around;
     align-items: center;
     list-style: none;
+  }
+  nav{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
   }

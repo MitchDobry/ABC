@@ -1,17 +1,8 @@
 import React from 'react';
 import Section from '../Section'
-import $ from "jquery";
-import { Accordion } from "foundation-sites";
 
 
 class Terapie extends React.Component {
-
-  componentDidMount() {
-    new Accordion($(".accordion"), {
-      slideSpeed: 500,
-      multiExpand: true
-    });
-}
 
   render (){
     return (
@@ -23,7 +14,7 @@ class Terapie extends React.Component {
         </div>
       </Section>
       <Section>
-      <ul >
+      <ul style={{padding: '4rem 4rem'}}>
               <li>
                 <h6>1.Opłaty za zajęcia są dokonywane każdorazowo gotówką za odbyte zajęcia lub przelewem na podstawie wystawionej faktury za cykl zajęć. Rachunki adresowane bezpośrednio do Fundacji są wystawiane w dniu pierwszej terapii z góry za miesięczny cykl terapii i przesyłane do Fundacji.</h6>
               </li>
@@ -55,7 +46,8 @@ class Terapie extends React.Component {
                   <h6>10. W przypadku dłuższych okresów nieobecności dziecka prosimy o wcześniejszą informację (1-2 tygodnie wcześniej).</h6>
               </li>
               <li>
-                  <h6>11. Istnieje możliwość wykupienia Pakietu minimum 8 zajęć w cenie 90 zł za terapię.</h6>
+                <ul>
+                <h6>11. Istnieje możliwość wykupienia Pakietu minimum 8 zajęć w cenie 90 zł za terapię.</h6>
                   <li>
                   Pakiet należy wykorzystać w ciągu 4 tygodni i z góry ustalić harmonogram zajęć.
                   </li>
@@ -68,6 +60,8 @@ class Terapie extends React.Component {
                   <li>
                   W przypadku choroby dziecka lub innych wydarzeń istnieje możliwość bezpłatnego przedłużenia tego okresu o 2 tygodnie.
                   </li>
+
+                </ul>
               </li>
               <li>
                   <h6>12. Zajęcia trwają 45 minut. W przypadku spóźnienia opiekuna zajęcia nie są przedłużane. W przypadku spóźnienia terapeuty - ma on obowiązek odrobić ten czas tego samego dnia lub wydłużyć zajęcia w następnym terminie.</h6>

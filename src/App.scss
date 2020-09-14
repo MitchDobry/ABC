@@ -65,22 +65,18 @@
  @import './scss/main';
  @import './scss/nav';
  @import './scss/footer';
-// @import './scss/post';
-// @import './scss/teaser';
-// @import './scss/buttons';
+
 
 
 h1,h2,h3,h4,h5,h5{
     text-transform: uppercase;
+    color:#0e226b;
 }
 
 .img_therapy{
     width: 300px;
     height: 300px;
     background-color: gray;
-}
-.therapy-price{
-    font-weight: bold;
 }
 .therapy-description {
     color: $dark-gray;
@@ -97,3 +93,18 @@ h1,h2,h3,h4,h5,h5{
     height: 400px;  /* The height is 400 pixels */
     width: 100%;  /* The width is the width of the web page */
    }
+   Section:nth-child(even) {
+   background-color:  rgba(151,225, 189, 0.13);
+}
+
+td{
+  border-bottom: 2px solid $medium-gray;
+}
+
+.button{
+  min-width: 17rem;
+  text-transform: uppercase;
+  h5{
+    margin: 0;
+  }
+}

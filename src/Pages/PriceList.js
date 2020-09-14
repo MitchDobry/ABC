@@ -7,7 +7,11 @@ function PriceList() {
       <Section>
         <div className="cell text-center">
           <h2>Cennik</h2>
+          <h6>Nr rachunku bankowego:
+              BRE BANK 68 1140 2004 0000 3602 7404 7901</h6>
         </div>
+        </Section>
+        <Section>
         <div className="cell medium-12 large-8 large-offset-2">
                   <table >
             <thead className="text-left">

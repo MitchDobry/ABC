@@ -23,6 +23,9 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
+$secondary: #FFCBAB;
+$primary: #91D5D8;
+$success: #97E1BD;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: Lato, Roboto, Arial, sans-serif;
@@ -32,7 +35,7 @@ $global-padding: 1rem;
 $global-position: 1rem;
 $global-weight-normal: 300;
 $global-weight-bold: 400;
-$global-radius: 5px;
+$global-radius: 10px;
 $global-menu-padding: 0.7rem 1rem;
 $global-menu-nested-margin: 1rem;
 $global-text-direction: ltr;
@@ -61,7 +64,8 @@ $grid-row-width: $global-width;
 $grid-column-count: 12;
 $grid-column-gutter: (
   small: 20px,
-  medium: 30px,
+  medium: 50px,
+  large: 80px
 );
 $grid-column-align-edge: true;
 $grid-column-alias: 'columns';
@@ -100,7 +104,7 @@ $paragraph-lineheight: 1.6;
 $paragraph-margin-bottom: 1rem;
 $paragraph-text-rendering: optimizeLegibility;
 $enable-code-inline: true;
-$anchor-color: red;
+$anchor-color:$secondary;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
@@ -129,11 +133,11 @@ $cite-pseudo-content: '\2014 \0020';
 // ----------
 
 $button-font-family: inherit;
-$button-font-weight: null;
+$button-font-weight: normal;
 $button-padding: 0.85em 1em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
-$button-background: $primary-color;
+$button-background: $secondary;
 $button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-color: $white;
 $button-color-alt: $black;
@@ -249,7 +253,8 @@ $grid-container: $global-width;
 $grid-columns: 12;
 $grid-margin-gutters: (
   small: 20px,
-  medium: 30px
+  medium: 50px,
+  large:90px
 );
 $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;
@@ -259,5 +264,15 @@ $xy-block-grid-max: 8;
 $footer-height: rem-calc(60px);
 $footer-extra-height: rem-calc(255px);
 $footer-background-bottom: #0a0a0a;
-$footer-background: #1a1a1a;
+$footer-background: #13211a;
 $footer-color: $white;
+
+$accordion-background:$white;
+$accordion-title-font-size:normal;
+$accordion-item-color:black;
+$accordion-item-background-hover:none;
+$accordion-content-background:$white;
+$accordion-content-border:2px solid  #91D5D8;
+$accordion-content-color:$black;
+$accordion-item-padding: 0.8rem 0.5rem;
+

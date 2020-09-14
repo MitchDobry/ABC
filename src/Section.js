@@ -6,7 +6,7 @@ export class Section extends React.Component {
       <section>
       <div>
         <div className="grid-container">
-          <div className="grid-x grid-padding-x grid-padding-y">
+          <div className="grid-x grid-padding-x grid-padding-y grid-margin-y">
           {this.props.children}
           </div>
         </div>
