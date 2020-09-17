@@ -2,6 +2,8 @@ import React from 'react';
 import Section from '../Section'
 import $ from "jquery";
 import { Accordion } from "foundation-sites";
+import Marta from '../Assets/marta.jpg'
+import Agnieszka from '../Assets/agnieszka.jpg'
 
 class Staff extends React.Component {
   componentDidMount() {
@@ -20,8 +22,8 @@ class Staff extends React.Component {
         </Section>
        
         <Section>
-        <div className="cell medium-5 large-4 large-offset-1">
-          <img className="staff-photo" alt="staff"></img>
+        <div className="cell medium-5 large-4  text-center">
+          <img className="staff-photo" alt="staff" src={Marta}></img>
         </div>
         <div className="cell medium-7">
             <h3>Marta Dusińska</h3>
@@ -57,7 +59,7 @@ class Staff extends React.Component {
         </div>
       </Section>
       <Section>
-        <div className="cell medium-5 large-4 large-offset-1">
+        <div className="cell medium-5 large-4  text-center">
           <img className="staff-photo" alt="staff"></img>
         </div>
         <div className="cell medium-7">
@@ -100,7 +102,7 @@ class Staff extends React.Component {
         </div>
       </Section>
       <Section>
-        <div className="cell medium-5 large-4 large-offset-1">
+        <div className="cell medium-5 large-4  text-center">
           <img className="staff-photo" alt="staff"></img>
         </div>
         <div className="cell medium-7">
@@ -132,7 +134,7 @@ class Staff extends React.Component {
         </div>
       </Section>
       <Section>
-      <div className="cell medium-5 large-4 large-offset-1">
+      <div className="cell medium-5 large-4  text-center">
           <img className="staff-photo" alt="staff"></img>
         </div>
         <div className="cell medium-7">
@@ -149,8 +151,8 @@ class Staff extends React.Component {
         </div>
       </Section>
       <Section>
-        <div className="cell medium-5 large-4 large-offset-1">
-          <img className="staff-photo" alt="staff"></img>
+        <div className="cell medium-5 large-4  text-center text-center">
+          <img className="staff-photo" alt="staff" src={Agnieszka}></img>
         </div>
         <div className="cell medium-7">
             <h3>Agnieszka Czarnecka</h3>

@@ -68,6 +68,7 @@
 
 
 
+
 h1,h2,h3,h4,h5,h5{
     text-transform: uppercase;
     color:#0e226b;
@@ -84,27 +85,25 @@ h1,h2,h3,h4,h5,h5{
   }
 
   .staff-photo{
-    width: 300px;
+    width: auto;
     height: 300px;
     border-radius: 50%;
     background-color: gray;
   }
-  #map {
-    height: 400px;  /* The height is 400 pixels */
-    width: 100%;  /* The width is the width of the web page */
-   }
    Section:nth-child(even) {
    background-color:  rgba(151,225, 189, 0.13);
 }
+
 
 td{
   border-bottom: 2px solid $medium-gray;
 }
 
 .button{
-  min-width: 17rem;
+  min-width: 14rem;
   text-transform: uppercase;
-  h5{
-    margin: 0;
+  margin:0;
+  a{
+    color: inherit;
   }
 }

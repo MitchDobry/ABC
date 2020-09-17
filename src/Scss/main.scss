@@ -13,6 +13,9 @@ header {
       height: 100%;
      
     }
+    img{
+      height: 4rem;
+    }
     .cell {
   
       p:last-child {
@@ -40,8 +43,11 @@ header {
         border-radius: 25px;
         max-width: 538px;
         text-align: center;
+        margin-top: 5rem;
+        h6{
+          font-weight: 600;
+        }
         .logos{
-          // background-image: url(../../assets/images/360_title.png);
           background-repeat: no-repeat;
           background-position: center;
           background-size: contain;
@@ -55,7 +61,12 @@ header {
         }
       }
     }
-  
+    @include breakpoint(medium only) {
+      
+        margin-top: 10rem;
+
+    }
+
     @include breakpoint(small only) {
       padding-top: 0.3rem;
       padding-bottom: 0;
@@ -74,10 +85,9 @@ header {
           background-color: transparent;
           box-shadow: none;
           padding-top: 5rem;
+          margin-top: 10rem;
           .logos{
-            height: 2rem;
-            margin-top: 1rem;
-            margin-bottom: 0.75rem;
+            display: none;
           }
         }
       }

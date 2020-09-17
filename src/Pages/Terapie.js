@@ -2,6 +2,7 @@ import React from 'react';
 import Section from '../Section'
 import $ from "jquery";
 import { Accordion } from "foundation-sites";
+//import Card from '../Components/Card/Card'
 
 
 class Terapie extends React.Component {
@@ -16,8 +17,8 @@ class Terapie extends React.Component {
   render (){
     return (
       <>
-      <Section>
-        <div className="cell text-center">
+      <Section className='Section-positioner'>
+        <div className="cell text-center Section-positioner">
           <h2>terapie</h2>
         </div>
       </Section>

@@ -104,7 +104,7 @@ $paragraph-lineheight: 1.6;
 $paragraph-margin-bottom: 1rem;
 $paragraph-text-rendering: optimizeLegibility;
 $enable-code-inline: true;
-$anchor-color:$secondary;
+$anchor-color:#0e226b;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
@@ -113,36 +113,20 @@ $hr-border: 1px solid $medium-gray;
 $hr-margin: rem-calc(20) auto;
 $enable-cite-block: true;
 
-// 5. Typography Helpers
-// ---------------------
-
-$lead-font-size: $global-font-size * 1.25;
-$lead-lineheight: 1.6;
-$subheader-lineheight: 1.4;
-$subheader-color: $dark-gray;
-$subheader-font-weight: $global-weight-normal;
-$subheader-margin-top: 0.2rem;
-$subheader-margin-bottom: 0.5rem;
-$stat-font-size: 2.5rem;
-$cite-color: $dark-gray;
-$cite-font-size: rem-calc(13);
-$cite-pseudo-content: '\2014 \0020';
-
-
 // 11. Button
 // ----------
 
 $button-font-family: inherit;
-$button-font-weight: normal;
+$button-font-weight: 700;
 $button-padding: 0.85em 1em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
 $button-background: $secondary;
 $button-background-hover: scale-color($button-background, $lightness: -15%);
-$button-color: $white;
+$button-color: #0e226b;
 $button-color-alt: $black;
 $button-radius: $global-radius;
-$button-border: 1px solid transparent;
+$button-border: none;
 $button-hollow-border-width: 1px;
 $button-sizes: (
   tiny: 0.6rem,
@@ -222,19 +206,6 @@ $dropdownmenu-border: 1px solid $medium-gray;
 $dropdown-menu-item-color-active: get-color(primary);
 $dropdown-menu-item-background-active: transparent;
 
-// 21. Label
-// ---------
-
-$label-background: $primary-color;
-$label-color: $white;
-$label-color-alt: $black;
-$label-palette: $foundation-palette;
-$label-font-size: 0.8rem;
-$label-padding: 0.33333rem 0.5rem;
-$label-radius: $global-radius;
-
-
-
 // 55. Top Bar
 // -----------
 
@@ -263,7 +234,7 @@ $xy-block-grid-max: 8;
 
 $footer-height: rem-calc(60px);
 $footer-extra-height: rem-calc(255px);
-$footer-background-bottom: #0a0a0a;
+$footer-background-bottom: #141916;
 $footer-background: #13211a;
 $footer-color: $white;
 

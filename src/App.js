@@ -11,6 +11,7 @@ import Regulamin from './Pages/Regulamin'
 import Kontakt from './Pages/Kontakt'
 
 import Bg from './Assets/bg.jpg'
+import Logo from './Assets/logo.svg'
 import './App.scss';
 
 
@@ -43,13 +44,13 @@ const Home = () => (
         <h1>ABC Terapii Dziecka</h1>
       </div>
       <div className="cell medium-6 left ">
-        <div className="logos"><h2>ABC</h2></div>
-        <h4>Terapie dziecięce <br/>w Starej Miłosnej</h4>
-          <div  className="button">
+        <div className="logos"><img src={Logo} alt='ABC Terapii Dziecka logo'/></div>
+        <h5>Terapie dziecięce <br/>w Warszawie<br/>i Starej Miłosnej</h5>
+          <button  className="button large">
            <a href="tel:123-456-7890">
-           <h5>zadzwoń</h5>
+           zadzwoń
            </a> 
-          </div>
+          </button>
       </div>
       <div className="cell medium-6 right">
           {/* <img src={Bg}></img> */}
@@ -58,32 +59,32 @@ const Home = () => (
   </div>
   </div>
   </header>
+  <div style={{marginBottom:'0', paddingBottom:'0', backgroundColor: 'white'}} className="cell text-center">
+      <h2 >o nas</h2>
+    </div>
   <Section>
-  <div style={{marginBottom:'0', paddingBottom:'0'}} className="cell text-center">
-    <h2>o nas</h2>
-  </div>
-  <div className="cell medium-12 large-6">
-                    <h3>Nowoczesy  ośrodek terapii
-                    dziecięcej</h3>
-                    <h6>
-                    Indywidualne podejście, kreatywność terapeutów,
-                    specjalnie zaadaptowane sale oraz przemyślany program ćwiczeń
-                    da Państwu satysfakcję i przekonanie, że podjęliście właściwą
-                    decyzję wybierając naszą ofertę.<br></br> <strong>ABC TERAPII DZIECKA</strong> to miejsce
-                    dla Ciebie i Twojej pociechy. 
-                    </h6>
-                    
-                    
-                    <div style={{marginTop:'2rem'}}  className="button">
-                      <a href="mailto:marta.dusinska@gmail.com">
-                        <h5>napisz do nas</h5>
-                      </a> 
-                    </div>
-                  </div>
-                  <div className="cell hide-small-only  large-6">
-                    <img src={Bg} alt="Ośrodek rehabilitacji"></img>
-                  </div>
+   
+    <div className="cell medium-12 large-6">
+      <h3>Nowoczesy  ośrodek terapii
+      dziecięcej</h3>
+      <h6>
+      Indywidualne podejście, kreatywność terapeutów,
+      specjalnie zaadaptowane sale oraz przemyślany program ćwiczeń
+      da Państwu satysfakcję i przekonanie, że podjęliście właściwą
+      decyzję wybierając naszą ofertę.<br></br> <strong>ABC TERAPII DZIECKA</strong> to miejsce
+      dla Ciebie i Twojej pociechy. 
+      </h6>
+    <button style={{marginTop:'2rem'}}  className="button large">
+        <a href="mailto:marta.dusinska@gmail.com">
+          napisz do nas
+        </a> 
+      </button>
+    </div>
+    <div className="cell hide-small-only  large-6">
+      <img src={Bg} alt="Ośrodek rehabilitacji"></img>
+    </div>
   </Section>
+ 
 </div>
 )
 

@@ -1,44 +1,77 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import Fb from './Assets/facebook-f-brands.svg'
+import Logo from './Assets/logo.svg'
 
-function Nav() {
+class Nav extends React.Component {
+    body = null
+    constructor(props, state) {
+        super(props, state)
+        this.body = document.querySelector('body')
+        this.state = {
+          isFullScreen: false,
+        }
+      }
+
+    toggleFullScreen = () => {
+        this.setState({
+          isFullScreen: !this.state.isFullScreen
+        })
+      }
+    
+      hideFullScreen = (e) => {
+        this.setState({
+          isFullScreen: false
+        })
+      }
+
+    render() {
+        const { isFullScreen } = this.state
 
   return (
     <nav>
         <div className="grid-container">
             <div className="grid-x  grid-margin-x align-middle text-center">
-                <div className="cell  medium-3">
-                    <Link  to='/'>
-                        <h3>Logo ABC</h3>
+                <div className="cell auto">
+                    <Link  to='/' className="logo" onClick={this.hideFullScreen}>
+                    <img src={Logo} alt='ABC Terapii Dziecka Logo'/><h6>Terapii Dziecka</h6>
                     </Link>
                 </div>
-                <div className="cell medium-9">
-                    <ul className="nav-links">
-                        <Link  to='/'>
+                <div className="cell shrink text-right">
+                    <ul className={`menu ${isFullScreen ? 'visible' : 'hidden'}`}>
+                        <Link  to='/' onClick={this.hideFullScreen}>
                             <li>Strona główna</li>
                         </Link>
-                        <Link  to='/terapie'>
+                        <Link  to='/terapie' onClick={this.hideFullScreen}>
                             <li>Terapie</li>
                         </Link>
-                        <Link  to='/staff'>
-                            <li>Załoga</li>
+                        <Link  to='/staff' onClick={this.hideFullScreen}>
+                            <li>Terapeuci</li>
                         </Link>
-                        <Link  to='/pricelist'>
+                        <Link  to='/pricelist' onClick={this.hideFullScreen}>
                             <li>Cennik</li>
                         </Link>
-                        <Link  to='/kontakt'>
+                        <Link  to='/kontakt' onClick={this.hideFullScreen}>
                             <li>Kontakt</li>
                         </Link>
-                        <Link  to='/regulamin'>
+                        <Link  to='/regulamin' onClick={this.hideFullScreen}>
                             <li>Regulamin</li>
                         </Link>
+                        <li>
+                        <a href="https://www.facebook.com/">
+                        <img alt="Facebook link" style={{height:'1.5rem'}} src={Fb}/>
+                        </a>
+                        </li>
                     </ul>
+                    <button className="toggle-fullscreen button secondary hollow medium" onClick={this.toggleFullScreen}>
+              <span>menu</span>
+            </button>
                 </div>
-
         </div>
         </div>
     </nav>
   );
+    }
 }
 
 export default Nav;
