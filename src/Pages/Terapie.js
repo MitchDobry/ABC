@@ -5,6 +5,7 @@ import { Accordion } from "foundation-sites";
 import reka from '../Assets/reka.jpg'
 import sensoplastyka from '../Assets/sensoplastyka.jpg'
 import integracjasenso from '../Assets/integracjasenso.jpg'
+import suit from '../Assets/suit.jpg'
 
 
 class Terapie extends React.Component {
@@ -29,7 +30,7 @@ class Terapie extends React.Component {
           <img src={sensoplastyka} alt="reh"></img>
         </div>
         <div className="cell small-12 medium-5">
-            <h3>neurorehabilitacja dzieci i niemowląt</h3>
+            <h3>rehabilitacja dzieci i niemowląt</h3>
             <ul>
               <li>Mózgowe porażenie dziecięce</li>
               <li>Zespoły genetyczne</li>
@@ -45,7 +46,7 @@ class Terapie extends React.Component {
         </div>
       </Section>
       <Section>
-        <div className="cell small-12 medium-8  large-6">
+        <div className="cell small-12 medium-8  large-5 large-offset-1">
             <h3>Badanie<br/> stóp</h3>
             <h5 className="therapy-description">indywidualne dopasowanie termoplastycznych
              wkładek ortopedycznych<strong> ICB MEDICAL</strong></h5>
@@ -54,7 +55,7 @@ class Terapie extends React.Component {
            </p>
         </div>
        
-        <div className="cell small-12 medium-8  large-6" >
+        <div className="cell small-12 medium-8  large-5" >
             <h3> terapia trójpłaszczyznowa</h3>
             <h4 className="therapy-description">manualna terapia stóp na podstawach neurofizjologicznych wg Barbary Zukunft-Huber</h4>
           <ul>
@@ -87,7 +88,6 @@ class Terapie extends React.Component {
                 Ćwiczenia w wymiarze 2,5 godzin dziennie, 5 razy w tygodniu w cyklach jedno, dwu i trzytygodniowych. Jest to zindywidualizowany, intensywny program rehabilitacyjny mający na celu rozwój siły i funkcji, czyli niezależności w wykonywaniu codziennych czynności.
                 W terapii wykorzystywane są: kostium rehabilitacyjny TheraSuit oraz Uniwersalny Gabinet Leczniczy. Specjalnie stworzony program pozwala na poprawę wzorców ruchowych oraz przyspieszenie rozwoju motorycznego.
                 </p>
-            
           <ul>
             <li>Mózgowe porażenie dziecięce</li>
             <li>Opóźnienie rozwoju motorycznego</li>
@@ -96,7 +96,12 @@ class Terapie extends React.Component {
             <li>Choroby układu nerwowo-mięśniowego</li>
           </ul>
         </div>
-        <div className="cell small-12 medium-5">
+        <div className="cell small-12 medium-6 ">
+          <img src={suit} alt="Kombinezon Therasuit"></img>
+        </div>
+      </Section>
+      <Section>
+      <div className="cell small-12 medium-5 medium-offset-1">
             <h3>Korekcja wad postawy</h3>
            <ul>
              <li>Wady i zniekształcenia stóp</li>
@@ -105,7 +110,9 @@ class Terapie extends React.Component {
              <li>Koślawość/ szpotawość kolan</li>
              <li>Inne wady postawy</li>
            </ul>
-           <h3>Kinesiotaping</h3>
+      </div>
+      <div className="cell small-12 medium-5">
+      <h3>Kinesiotaping</h3>
           <ul>
             <li>Korekcja wad postawy</li>
             <li>Wspomaganie pracy mięśni</li>
@@ -140,7 +147,7 @@ class Terapie extends React.Component {
              <li>Zajęcia logarytmiczne</li>
            </ul>
         </div>
-        <div className="cell small-12 medium-5 medium-offset-1 large-4">
+        <div className="cell small-12 medium-5 large-4">
             <h3>pedagogiczna</h3>
           <ul>
             <li>Reedukacja Dysleksji</li>

@@ -23,16 +23,28 @@ header {
       }
   
       &.right {
-        // background-image: url(../../assets/images/header_v2.svg);
+        background-image: url(../Assets/boy.png);
         background-repeat: no-repeat;
         background-size: auto 100%;
         background-position: bottom;
         position: relative;
-        height: 33rem;
+        margin-top: 5rem;
+        height: 20rem;
         right: 0;
         padding: 0;
+        opacity: 0;
+        animation: fadeIn 1s 1s ease-in forwards;
         @include breakpoint(small only) {
           display: none;
+        }
+      }
+
+      @keyframes fadeIn{
+        0%{
+          opacity: 0;
+        }
+        100%{
+          opacity: 1;
         }
       }
   

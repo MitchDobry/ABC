@@ -9,6 +9,7 @@ import Terapie from './Pages/Terapie'
 import PriceList from './Pages/PriceList'
 import Regulamin from './Pages/Regulamin'
 import Kontakt from './Pages/Kontakt'
+import local from './Assets/local.jpg'
 
 import Logo from './Assets/logo.svg'
 import './App.scss';
@@ -52,7 +53,6 @@ const Home = () => (
           </button>
       </div>
       <div className="cell medium-6 right">
-          {/* <img src={Bg}></img> */}
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@ const Home = () => (
       <h3>o nas</h3>
     </div>
   <Section>
-    <div className="cell medium-12 large-6 large-offset-3">
+    <div className="cell medium-12 large-6">
       <h3>Nowoczesy  ośrodek terapii
       dziecięcej</h3>
       <h6>
@@ -78,6 +78,9 @@ const Home = () => (
         </a> 
       </button>
     </div>
+    <div className="cell medium-12 large-6 text-right">
+          <img src={local} alt='zdjęcie ośrodka'></img>
+      </div>
   </Section>
  
 </div>
