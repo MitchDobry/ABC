@@ -16,7 +16,7 @@ import './App.scss';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/'>
       <div className="App">
         <Nav />
         <Switch>
