@@ -4,6 +4,8 @@ import $ from "jquery";
 import { Accordion } from "foundation-sites";
 import Marta from '../Assets/marta.jpg'
 import Agnieszka from '../Assets/agnieszka.jpg'
+import ola from '../Assets/Olaciesielska.jpg'
+import martaf from '../Assets/martf.jpg'
 
 class Staff extends React.Component {
   componentDidMount() {
@@ -60,58 +62,19 @@ class Staff extends React.Component {
       </Section>
       <Section>
         <div className="cell medium-5 large-4  text-center">
-          <img className="staff-photo" alt="staff"></img>
-        </div>
-        <div className="cell medium-7">
-            <h3>Sylwia Gilewska - Matysiak</h3>
-            <h6 >
-            Jestem absolwentką Szkoły Wyższej Psychologii Społecznej (obecnie Uniwersytet SWPS) na kierunku
-            Społeczna Psychologia Kliniczna oraz studiów podyplomowych Diagnoza kliniczna dziecka i jego
-            rodziny na Uniwersytecie Warszawskim.
-            </h6>
-            <p>
-            Od kilku lat jestem związana z edukacją, pracowałam z dziećmi w przedszkolach, gimnazjum, a
-            aktualnie pracuję w szkole podstawowej.
-            Profil moich zawodowych zainteresowań jest dość szeroki. Pracuję z dziećmi indywidualnie oraz
-            grupowo, prowadząc terapie oraz warsztaty i treningi.
-            Od kilku lat prowadzę zajęcia dla dzieci w wieku przedszkolnym i wczesnoszkolnym rozwijające
-            kompetencje emocjonalno-społeczne „Dziecko w świecie emocji”, które są moim autorskim
-            pomysłem.
-            </p>
-            <p>
-            Praca z dziećmi i młodzieżą jest dla mnie wciąż nowym wyzwanie, ale też ogromną frajdą.
-            Jestem ciekawa każdego małego i dużego pacjenta.
-            </p>
-            <ul className="accordion" data-accordion data-allow-all-closed>
-              <li className="accordion-item" data-accordion-item >
-                <a href="#" className="accordion-title">
-                <h5>kursy i szkolenia</h5>
-                </a>
-                <div className="accordion-content" data-tab-content>
-                <ul>
-                  <li>02.2018 Diagnoza „Skala Stanford Binet”</li>
-                  <li>10.2017 Organizacja systemu pomocy psychologiczno-pedagogicznej</li>
-                  <li>11.2017 TUS Terapia grupowa dla dzieci ze spektrum autyzmu</li>
-                  <li>09.2015 Stosowanie i interpretacja Skal Inteligencji i Rozwoju dla Dzieci</li>
-                  <li>11.2015 Szkolenie dla asystentów osób ze spektrum autyzmu, Stowarzyszenie Po-Mocni</li>
-                </ul>
-                </div>
-              </li>
-          </ul>
-          
-        </div>
-      </Section>
-      <Section>
-        <div className="cell medium-5 large-4  text-center">
-          <img className="staff-photo" alt="staff"></img>
+          <img className="staff-photo" src={ola} alt="Aleksandra Ciesielska"></img>
         </div>
         <div className="cell medium-7">
             <h3>Aleksandra Ciesielska</h3>
             <h6 >
-            Jestem absolwentką studiów magisterskich na kierunku pedagogika specjalna, specjalność: logopedia na Akademii Pedagogiki Specjalnej im. Marii Grzegorzewskiej w Warszawie. Doświadczenie zawodowe zdobywałam odbywając liczne praktyki w placówkach oświatowych i medycznych oraz pracując jako logopeda w przedszkolach publicznych.
+            
+Jestem absolwentką studiów na kierunku pedagogika specjalna o specjalności logopedia na Akademii Pedagogiki Specjalnej im. Marii Grzegorzewskiej w Warszawie. Obecnie kontynuuję naukę na podyplomowych studiach z zakresu neurologopedii i wczesnego wspomagania rozwoju dziecka w Centrum Kształcenia Podyplomowego Uczelni Łazarskiego. Doświadczenie zawodowe zdobywałam odbywając liczne praktyki oraz pracując jako logopeda w placówkach oświatowych i medycznych.
             </h6>
             <p>
-            Terapię z dziećmi prowadzę w sposób kreatywny i wesoły dostosowując ją do zainteresowań i możliwości pacjentów. Celem moich działań jest rozbudzenie w dzieciach chęci do komunikacji na możliwym dla nich poziomie.
+            Zajmuję się terapią dzieci z różnorakimi zaburzeniami mowy i komunikacji. W kręgu moich zainteresowań zawodowych szczególne miejsce zajmuje komunikacja alternatywna oraz terapia karmienia. 
+
+Z każdym podopiecznym staram się zbudować więź opartą na wzajemnym zrozumieniu i zaufaniu, dzięki której uda się nam wspólnie osiągnąć jak najlepsze efekty. Zajęcia staram się prowadzić w sposób kreatywny dostosowując zadania do możliwości i zainteresowań pacjentów.  
+
             </p>
             <ul className="accordion" data-accordion data-allow-all-closed>
               <li className="accordion-item" data-accordion-item >
@@ -120,34 +83,20 @@ class Staff extends React.Component {
                 </a>
                 <div className="accordion-content" data-tab-content>
                 <ul>
+                  <li>Jedzenie doustne wyzwaniem dla dzieci karmionych alternatywnie</li>
+                  <li>Akademia Terapeuty Karmienia</li>
+                  <li>Badanie logopedyczne dzieci w wieku 2-8 lat</li>
+                  <li>AAC. Wspomagające i alternatywne sposoby porozumiewania się – 1 i 2 stopień</li>
+                  <li>Makaton stopień I</li>
+                  <li>Masaż logopedyczny</li>
+                  <li>Wczesna diagnoza i stymulacja logopedyczna noworodków i niemowląt</li>
                   <li>Roczny staż logopedyczny w Fundacji SYNAPSIS</li>
-                  <li>„Podstawowe zagadnienia terapii i edukacji dzieci z autyzmem"</li>
-                  <li>„AAC. Wspomagające i alternatywne sposoby porozumiewania się – 1 i 2 stopień</li>
-                  <li>„Makaton stopień I”</li>
-                  <li>"Masaż logopedyczny"</li>
-                  <li>"Wczesna diagnoza i stymulacja logopedyczna noworodków i niemowląt"</li>
+                  <li>Podstawowe zagadnienia terapii i edukacji dzieci z autyzmem</li>
                 </ul>
                 </div>
               </li>
           </ul>
           
-        </div>
-      </Section>
-      <Section>
-      <div className="cell medium-5 large-4  text-center">
-          <img className="staff-photo" alt="staff"></img>
-        </div>
-        <div className="cell medium-7">
-            <h3>Aleksandra Ciesielska</h3>
-            <h6 >
-              Jestem magistrem fizjoterapii, absolwentką Wyższej Szkoły Rehabilitacji oraz terapeutą SI, absolwentką studiów podyplomowych Wyższej Szkoły Pedagogiki i Administracji. 
-              Pracę z dziećmi rozpoczęłam w 2017 roku, jako fizjoterapeuta, od 2018 również jako terapeuta SI. 
-            </h6>
-            <p>
-              Pracuję z dziećmi z różnymi zaburzeniami – neurologicznymi, ortopedycznymi, z wadami genetycznymi, zespołem Aspergera,  autyzmem i zespołem Downa. 
-              Doświadczenie zawodowe w zakresie rehabilitacji zdobywałam dzięki licznym praktykom oraz jako wolontariusz na obozach dla dzieci niepełnosprawnych. 
-              Praca z dziećmi daje mi dużą satysfakcję. Zajęcia prowadzę w sposób kreatywny dostosowując ćwiczenia do potrzeb małych pacjentów. 
-            </p>
         </div>
       </Section>
       <Section>
@@ -184,6 +133,45 @@ class Staff extends React.Component {
                 </div>
               </li>
           </ul>
+        </div>
+      </Section>
+      <Section>
+        <div className="cell medium-5 large-4  text-center">
+          <img className="staff-photo" alt="Marta Filewska" src={martaf}></img>
+        </div>
+        <div className="cell medium-7">
+            <h3>Marta Filewska</h3>
+            <h6 >
+            Jestem magistrem fizjoterapii, absolwentką Wyższej Szkoły Rehabilitacji oraz terapeutą SI,
+absolwentką studiów podyplomowych WSPiA. 
+Pracę z dziećmi rozpoczęłam w 2017 roku, jako fizjoterapeuta, od 2018 również jako
+terapeuta SI. Ciągle dążę do podnoszenia swoich kwalifikacji zawodowych. Obecnie jestem
+na studiach podyplomowych z zakresu Przygotowania Pedagogicznego oraz
+Oligofrenopedagogiki.
+            </h6>
+            <p>
+           
+Pracuję z dziećmi z różnymi zaburzeniami – ortopedycznymi , neurologicznymi, z wadami
+genetycznymi, zespołem Aspergera,  autyzmem i zespołem Downa. 
+Doświadczenie zawodowe w zakresie rehabilitacji zdobywałam dzięki licznym praktykom
+oraz jako wolontariusz na obozach dla dzieci niepełnosprawnych. 
+Praca z dziećmi daje mi dużą satysfakcję. Zajęcia prowadzę w sposób kreatywny
+dostosowując ćwiczenia do potrzeb małych pacjentów. 
+            </p>
+            <ul className="accordion" data-accordion data-allow-all-closed>
+              <li className="accordion-item" data-accordion-item >
+                <a href="#" className="accordion-title">
+                <h5>kursy i szkolenia</h5>
+                </a>
+                <div className="accordion-content" data-tab-content>
+                <ul>
+                  <li>Trójpłaszczyznowa, manualna terapia stóp na podstawach neurofizjologicznych wg Barbary
+Zukunft-Huber</li>
+                </ul>
+                </div>
+              </li>
+          </ul>
+          
         </div>
       </Section>
       </>
