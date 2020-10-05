@@ -1,5 +1,8 @@
 :root {
   --nav-height: 5rem;
+  @include breakpoint(medium) {
+    --nav-height:0rem;
+  }
 }
 
 nav {
@@ -139,48 +142,14 @@ body {
 .logo {
   img {
     margin: 0;
-    height: 2rem;
-    margin: 1rem;
+    height: 4rem;
     
   }
 
   @include breakpoint(medium) {
     img {
-      height: 3.25rem;
+      height: 4.25rem;
     }
   }
   
-    img{
-      height: 2rem;
-    }
 }
-
-
-
-//@import 'logo.scss';
-
-// nav{
-//     align-items: center;
-//     border-bottom: 1px solid $footer-background;
-//     li{
-//       color: $black;
-//       font-weight:$global-weight-bold;
-//       text-transform: uppercase;
-//     }
-//     h3{
-//       color: black;
-//     }
-//   }
-  
-//   .nav-links{
-//     display: flex;
-//     justify-content: space-around;
-//     align-items: center;
-//     list-style: none;
-//   }
-//   nav{
-//     position: sticky;
-//     top: 0;
-//     background-color: white;
-//     z-index: 10;
-//   }

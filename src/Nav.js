@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import Fb from './Assets/facebook-f-brands.svg'
-import Logo from './Assets/logo.svg'
+import Logo from './Assets/logo2.svg'
 
 class Nav extends React.Component {
     body = null
@@ -31,11 +31,10 @@ class Nav extends React.Component {
   return (
     <nav>
         <div className="grid-container">
-            <div className="grid-x  grid-margin-x align-middle text-center">
+            <div className="grid-x  grid-margin-x align-middle ">
                 <div className="cell auto">
                     <Link  to='/' className="logo" onClick={this.hideFullScreen}>
-                    <img src={Logo} alt='ABC Terapii Dziecka Logo'/><h6>Terapii Dziecka</h6>
-                    </Link>
+                    <img src={Logo} alt='ABC Terapii Dziecka Logo'/></Link>
                 </div>
                 <div className="cell shrink text-right">
                     <ul className={`menu ${isFullScreen ? 'visible' : 'hidden'}`}>

@@ -5,7 +5,7 @@ function PriceList() {
   return (
     <>
       <Section>
-        <div className="cell text-center">
+        <div className="cell text-center marginer">
           <h2>Cennik</h2>
           <h6>Nr rachunku bankowego:
               BRE BANK 68 1140 2004 0000 3602 7404 7901</h6>

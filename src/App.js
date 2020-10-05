@@ -10,7 +10,6 @@ import PriceList from './Pages/PriceList'
 import Regulamin from './Pages/Regulamin'
 import Kontakt from './Pages/Kontakt'
 
-import Bg from './Assets/bg.jpg'
 import Logo from './Assets/logo.svg'
 import './App.scss';
 
@@ -45,9 +44,9 @@ const Home = () => (
       </div>
       <div className="cell medium-6 left ">
         <div className="logos"><img src={Logo} alt='ABC Terapii Dziecka logo'/></div>
-        <h5>Terapie dziecięce <br/>w Warszawie<br/>i Starej Miłosnej</h5>
+        <h1>Terapie dziecięce <br/>w Warszawie - Wesoła<br/></h1>
           <button  className="button large">
-           <a href="tel:123-456-7890">
+           <a href="tel:607334050">
            zadzwoń
            </a> 
           </button>
@@ -60,11 +59,10 @@ const Home = () => (
   </div>
   </header>
   <div style={{marginBottom:'0', paddingBottom:'0', backgroundColor: 'white'}} className="cell text-center">
-      <h2 >o nas</h2>
+      <h3>o nas</h3>
     </div>
   <Section>
-   
-    <div className="cell medium-12 large-6">
+    <div className="cell medium-12 large-6 large-offset-3">
       <h3>Nowoczesy  ośrodek terapii
       dziecięcej</h3>
       <h6>
@@ -75,13 +73,10 @@ const Home = () => (
       dla Ciebie i Twojej pociechy. 
       </h6>
     <button style={{marginTop:'2rem'}}  className="button large">
-        <a href="mailto:marta.dusinska@gmail.com">
+        <a href="mailto:abcterapiidziecka@gmail.com">
           napisz do nas
         </a> 
       </button>
-    </div>
-    <div className="cell hide-small-only  large-6">
-      <img src={Bg} alt="Ośrodek rehabilitacji"></img>
     </div>
   </Section>
  

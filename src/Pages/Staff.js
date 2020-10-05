@@ -16,7 +16,7 @@ class Staff extends React.Component {
     return (
       <>
         <Section>
-          <div className="cell text-center">
+          <div className="cell text-center marginer">
             <h2>nasi terapeuci</h2>
           </div>
         </Section>

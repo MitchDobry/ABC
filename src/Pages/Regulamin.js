@@ -8,7 +8,7 @@ class Terapie extends React.Component {
     return (
       <>
       <Section>
-        <div className="cell text-center">
+        <div className="cell text-center marginer">
           <h2>Regulamin</h2>
           <h4>korzystania z zajęć w „ABC Terapii Dziecka”</h4>
         </div>
