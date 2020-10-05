@@ -34,7 +34,7 @@ class Nav extends React.Component {
             <div className="grid-x  grid-margin-x align-middle ">
                 <div className="cell auto">
                     <Link  to='/' className="logo" onClick={this.hideFullScreen}>
-                    <img src={Logo} alt='ABC Terapii Dziecka Logo'/></Link>
+                    <img src={Logo} alt='ABC Terapii Dziecka Logotyp'/></Link>
                 </div>
                 <div className="cell shrink text-right">
                     <ul className={`menu ${isFullScreen ? 'visible' : 'hidden'}`}>
