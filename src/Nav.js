@@ -57,7 +57,7 @@ class Nav extends React.Component {
                             <li>Regulamin</li>
                         </Link>
                         <li>
-                        <a href="https://www.facebook.com/">
+                        <a href="https://www.facebook.com/abcterapiidzieckapl">
                         <img alt="Facebook link" style={{height:'1.5rem'}} src={Fb}/>
                         </a>
                         </li>
