@@ -25,10 +25,10 @@ class Terapie extends React.Component {
         </div>
       </Section>
       <Section>
-        <div className="cell small-12 medium-3 medium-offset-1">
-          <img className="img_therapy" src={sensoplastyka} alt="reh"></img>
+        <div className="cell small-12 medium-4 medium-offset-1">
+          <img src={sensoplastyka} alt="reh"></img>
         </div>
-        <div className="cell small-12 medium-7">
+        <div className="cell small-12 medium-5">
             <h3>neurorehabilitacja dzieci i niemowląt</h3>
             <ul>
               <li>Mózgowe porażenie dziecięce</li>
@@ -45,7 +45,7 @@ class Terapie extends React.Component {
         </div>
       </Section>
       <Section>
-        <div className="cell small-12 medium-5 medium-offset-1">
+        <div className="cell small-12 medium-8  large-6">
             <h3>Badanie<br/> stóp</h3>
             <h5 className="therapy-description">indywidualne dopasowanie termoplastycznych
              wkładek ortopedycznych<strong> ICB MEDICAL</strong></h5>
@@ -54,7 +54,7 @@ class Terapie extends React.Component {
            </p>
         </div>
        
-        <div className="cell small-12 medium-5 ">
+        <div className="cell small-12 medium-8  large-6" >
             <h3> terapia trójpłaszczyznowa</h3>
             <h4 className="therapy-description">manualna terapia stóp na podstawach neurofizjologicznych wg Barbary Zukunft-Huber</h4>
           <ul>
@@ -64,8 +64,8 @@ class Terapie extends React.Component {
         </div>
       </Section>
       <Section>
-      <div className="cell small-12 medium-3 medium-offset-1">
-          <img className="img_therapy" src={integracjasenso} alt="reh"></img>
+      <div className="cell small-12 medium-4 medium-offset-1 ">
+          <img src={integracjasenso} alt="reh"></img>
         </div>
         <div className="cell small-12 medium-7">
             <h3>integracja Sensoryczna</h3>
@@ -126,7 +126,7 @@ class Terapie extends React.Component {
         </div>
       </Section>
       <Section>
-        <div className="cell small-12 medium-4">
+        <div className="cell small-12 medium-5 large-4">
             <h3> logopedyczna</h3>
            <ul>
              <li>Dyslalia</li>
@@ -140,7 +140,7 @@ class Terapie extends React.Component {
              <li>Zajęcia logarytmiczne</li>
            </ul>
         </div>
-        <div className="cell small-12 medium-4">
+        <div className="cell small-12 medium-5 medium-offset-1 large-4">
             <h3>pedagogiczna</h3>
           <ul>
             <li>Reedukacja Dysleksji</li>
@@ -148,7 +148,7 @@ class Terapie extends React.Component {
             <li>Eliminowanie niepowodzeń szkolnych</li>
           </ul>
         </div>
-        <div className="cell small-12 medium-4">
+        <div className="cell small-12 medium-5 large-4">
             <h3> psychologiczna</h3>
            <ul>
              <li>Ocena rozwoju dziecka i gotowości szkolnej</li>
