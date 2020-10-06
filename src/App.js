@@ -69,7 +69,7 @@ const Home = () => (
       Indywidualne podejście, kreatywność terapeutów,
       specjalnie zaadaptowane sale oraz przemyślany program ćwiczeń
       da Państwu satysfakcję i przekonanie, że podjęliście właściwą
-      decyzję wybierając naszą ofertę.<br></br> <strong>ABC TERAPII DZIECKA</strong> to miejsce
+      decyzję wybierając naszą ofertę.<br></br> <strong>ABC terapii dziecka</strong> to miejsce
       dla Ciebie i Twojej pociechy. 
       </h6>
     <button style={{marginTop:'2rem'}}  className="button large">
