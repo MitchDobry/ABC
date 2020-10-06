@@ -80,7 +80,7 @@ return(
                 
             </table>
         </div>
-        <iframe className="cell medium-7 mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.5443325152414!2d21.224164916351445!3d52.21532766651486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ed40bb5454f59%3A0xd47e3577a32fe294!2sABC%20Terapii%20Dziecka!5e0!3m2!1spl!2spl!4v1600361116629!5m2!1spl!2spl"
+        <iframe title="Mapa do ABC Terapii Dziecka" className="cell medium-7 mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.5443325152414!2d21.224164916351445!3d52.21532766651486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ed40bb5454f59%3A0xd47e3577a32fe294!2sABC%20Terapii%20Dziecka!5e0!3m2!1spl!2spl!4v1600361116629!5m2!1spl!2spl"
         style={{
             height:"800",
             frameborder:"0",
