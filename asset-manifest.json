@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ABCweb/static/css/main.b7c9f561.chunk.css",
+    "main.js": "/ABCweb/static/js/main.c9a3d06f.chunk.js",
+    "main.js.map": "/ABCweb/static/js/main.c9a3d06f.chunk.js.map",
+    "runtime-main.js": "/ABCweb/static/js/runtime-main.5fb16a76.js",
+    "runtime-main.js.map": "/ABCweb/static/js/runtime-main.5fb16a76.js.map",
+    "static/js/2.9d5a308b.chunk.js": "/ABCweb/static/js/2.9d5a308b.chunk.js",
+    "static/js/2.9d5a308b.chunk.js.map": "/ABCweb/static/js/2.9d5a308b.chunk.js.map",
+    "index.html": "/ABCweb/index.html",
+    "precache-manifest.11943aa73cf1effd86fd44ca316eed1f.js": "/ABCweb/precache-manifest.11943aa73cf1effd86fd44ca316eed1f.js",
+    "service-worker.js": "/ABCweb/service-worker.js",
+    "static/css/main.b7c9f561.chunk.css.map": "/ABCweb/static/css/main.b7c9f561.chunk.css.map",
+    "static/js/2.9d5a308b.chunk.js.LICENSE.txt": "/ABCweb/static/js/2.9d5a308b.chunk.js.LICENSE.txt",
+    "static/media/Olaciesielska.jpg": "/ABCweb/static/media/Olaciesielska.c17e66e0.jpg",
+    "static/media/agnieszka.jpg": "/ABCweb/static/media/agnieszka.b219b32d.jpg",
+    "static/media/facebook-f-brands.svg": "/ABCweb/static/media/facebook-f-brands.8883378a.svg",
+    "static/media/integracjasenso.jpg": "/ABCweb/static/media/integracjasenso.2a3c056c.jpg",
+    "static/media/local.jpg": "/ABCweb/static/media/local.d4259805.jpg",
+    "static/media/logo.svg": "/ABCweb/static/media/logo.0929a958.svg",
+    "static/media/logo2.svg": "/ABCweb/static/media/logo2.1a5179ad.svg",
+    "static/media/marta.jpg": "/ABCweb/static/media/marta.f85efaf7.jpg",
+    "static/media/martf.jpg": "/ABCweb/static/media/martf.a89599cc.jpg",
+    "static/media/reka.jpg": "/ABCweb/static/media/reka.0a2c39c8.jpg",
+    "static/media/sensoplastyka.jpg": "/ABCweb/static/media/sensoplastyka.9aa089e6.jpg",
+    "static/media/suit.jpg": "/ABCweb/static/media/suit.918529db.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5fb16a76.js",
+    "static/js/2.9d5a308b.chunk.js",
+    "static/css/main.b7c9f561.chunk.css",
+    "static/js/main.c9a3d06f.chunk.js"
+  ]
+}
