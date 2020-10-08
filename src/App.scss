@@ -90,6 +90,7 @@ h1,h2,h3,h4,h5,h5{
     height: 300px;
     border-radius: 50%;
     background-color: gray;
+    margin-top: 1.5rem;
   }
    Section:nth-child(even) {
    background-color:  rgba(151,225, 189, 0.13);
@@ -125,5 +126,15 @@ td{
   }
   @include breakpoint(small only) {
     margin-top:4rem!important;
+  }
+}
+
+.regulaminUl{
+  padding: 4rem 4rem;
+  li{
+    margin-bottom: 1rem;
+  }
+  @include breakpoint(small only){
+    padding: 1rem;
   }
 }

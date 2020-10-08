@@ -39,22 +39,22 @@ class Nav extends React.Component {
                 <div className="cell shrink text-right">
                     <ul className={`menu ${isFullScreen ? 'visible' : 'hidden'}`}>
                         <Link  to='/' onClick={this.hideFullScreen}>
-                            <li>Strona główna</li>
+                           <h6>Strona główna</h6> 
                         </Link>
                         <Link  to='/terapie' onClick={this.hideFullScreen}>
-                            <li>Terapie</li>
+                        <h6>Terapie</h6> 
                         </Link>
-                        <Link  to='/staff' onClick={this.hideFullScreen}>
-                            <li>Terapeuci</li>
+                        <Link  to='/pracownicy' onClick={this.hideFullScreen}>
+                        <h6>Pracownicy</h6> 
                         </Link>
-                        <Link  to='/pricelist' onClick={this.hideFullScreen}>
-                            <li>Cennik</li>
+                        <Link  to='/cennik' onClick={this.hideFullScreen}>
+                        <h6>Cennik</h6> 
                         </Link>
                         <Link  to='/kontakt' onClick={this.hideFullScreen}>
-                            <li>Kontakt</li>
+                        <h6>Kontakt</h6> 
                         </Link>
                         <Link  to='/regulamin' onClick={this.hideFullScreen}>
-                            <li>Regulamin</li>
+                        <h6>Regulamin</h6> 
                         </Link>
                         <li>
                         <a href="https://www.facebook.com/abcterapiidzieckapl">

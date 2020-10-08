@@ -14,7 +14,7 @@ class Terapie extends React.Component {
         </div>
       </Section>
       <Section>
-      <ul style={{padding: '4rem 4rem'}}>
+      <ul className="regulaminUl" >
               <li>
                 <h6>1.Opłaty za zajęcia są dokonywane każdorazowo gotówką za odbyte zajęcia lub przelewem na podstawie wystawionej faktury za cykl zajęć. Rachunki adresowane bezpośrednio do Fundacji są wystawiane w dniu pierwszej terapii z góry za miesięczny cykl terapii i przesyłane do Fundacji.</h6>
               </li>

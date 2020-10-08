@@ -4,12 +4,12 @@ import Nav from './Nav'
 import Footer from './Footer'
 import Section from './Section'
 
-import Staff from './Pages/Staff'
+import pracownicy from './Pages/pracownicy'
 import Terapie from './Pages/Terapie'
-import PriceList from './Pages/PriceList'
+import cennik from './Pages/cennik'
 import Regulamin from './Pages/Regulamin'
 import Kontakt from './Pages/Kontakt'
-import local from './Assets/local.jpg'
+import local from './Assets/localfront.jpg'
 
 import Logo from './Assets/logo.svg'
 import './App.scss';
@@ -23,8 +23,8 @@ function App() {
         <Switch>
               <Route path="/" exact component={Home}/>
               <Route path="/terapie" component={Terapie} />
-              <Route path="/staff" component={Staff} />
-              <Route path="/pricelist" component={PriceList} />
+              <Route path="/pracownicy" component={pracownicy} />
+              <Route path="/cennik" component={cennik} />
               <Route path="/kontakt" component={Kontakt} />
               <Route path="/regulamin" component={Regulamin} />
         </Switch>
@@ -46,11 +46,11 @@ const Home = () => (
       <div className="cell medium-6 left ">
         <div className="logos"><img src={Logo} alt='ABC Terapii Dziecka logo'/></div>
         <h1>Terapie dziecięce <br/>w Warszawie - Wesoła<br/></h1>
+        <a href="tel:607334050">
           <button  className="button large">
-           <a href="tel:607334050">
            zadzwoń
-           </a> 
           </button>
+          </a> 
       </div>
       <div className="cell medium-6 right">
       </div>
@@ -58,25 +58,27 @@ const Home = () => (
   </div>
   </div>
   </header>
-  <div style={{marginBottom:'0', paddingBottom:'0', backgroundColor: 'white'}} className="cell text-center">
-      <h3>o nas</h3>
+  <div style={{marginBottom:'0', paddingBottom:'0', backgroundColor: 'white', marginTop:'2rem'}} className="cell text-center">
+      <h2>o nas</h2>
     </div>
   <Section>
     <div className="cell medium-12 large-6">
       <h3>Nowoczesy  ośrodek terapii
       dziecięcej</h3>
-      <h6>
+      <h4 style={{color:'black', textTransform:'none', fontSize:'1.2rem'}}>
       Indywidualne podejście, kreatywność terapeutów,
-      specjalnie zaadaptowane sale oraz przemyślany program ćwiczeń
-      da Państwu satysfakcję i przekonanie, że podjęliście właściwą
-      decyzję wybierając naszą ofertę.<br></br> <strong>ABC terapii dziecka</strong> to miejsce
-      dla Ciebie i Twojej pociechy. 
-      </h6>
+      specjalnie zaadaptowane sale oraz&nbsp;przemyślany program ćwiczeń
+      da&nbsp;Państwu satysfakcję i przekonanie, że&nbsp;podjęliście właściwą
+      decyzję wybierając naszą ofertę.<br></br> <strong>ABC Terapii Dziecka</strong> to&nbsp;miejsce
+      dla Ciebie i&nbsp;Twojej&nbsp;pociechy. 
+      </h4>
+      <a href="mailto:abcterapiidziecka@gmail.com">
     <button style={{marginTop:'2rem'}}  className="button large">
-        <a href="mailto:abcterapiidziecka@gmail.com">
+       
           napisz do nas
-        </a> 
+        
       </button>
+      </a> 
     </div>
     <div className="cell medium-12 large-6 text-right">
           <img src={local} alt='zdjęcie ośrodka'></img>

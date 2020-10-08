@@ -6,6 +6,7 @@ import Marta from '../Assets/marta.jpg'
 import Agnieszka from '../Assets/agnieszka.jpg'
 import ola from '../Assets/Olaciesielska.jpg'
 import martaf from '../Assets/martf.jpg'
+import aswiderska from '../Assets/aswiderska.jpg'
 
 class Staff extends React.Component {
   componentDidMount() {
@@ -19,7 +20,7 @@ class Staff extends React.Component {
       <>
         <Section>
           <div className="cell text-center marginer">
-            <h2>nasi terapeuci</h2>
+            <h2>nasz personel</h2>
           </div>
         </Section>
        
@@ -33,13 +34,13 @@ class Staff extends React.Component {
             Profesjonalną rehabilitacją zajmuję się od 2004 r. Jestem osobą piekielnie aktywną zawodowo. Uwielbiam pracę z dziećmi. Rzadko zdarza się połączyć pasję z pracą. Mi się to udało.
             </h6>
             <p>
-            Ukończyłam fizjoterapię na Akademii Medycznej w Warszawie.
+            Ukończyłam fizjoterapię na Akademii Medycznej w&nbsp;Warszawie.
              W toku studiów odbyłam szereg dodatkowych szkoleń.
-              Pracowałam z dziećmi z różnymi zaburzeniami – zarówno neurologicznymi jak i ortopedycznymi.
-              Obecnie&nbsp;pracuję jako fizjoterapeuta i&nbsp;terapeuta integracji sensorycznej w Mazowieckim Centrum&nbsp;Neurorehabilitacji&nbsp;i&nbsp;Psychiatrii w Zagórzu k/ Warszawy.
+              Pracowałam&nbsp;z&nbsp;dziećmi z&nbsp;różnymi zaburzeniami – zarówno neurologicznymi jak i ortopedycznymi.
+              Obecnie&nbsp;pracuję jako fizjoterapeuta i&nbsp;terapeuta integracji sensorycznej w&nbsp;Mazowieckim&nbsp;Centrum&nbsp;Neurorehabilitacji<br/>i&nbsp;Psychiatrii w Zagórzu k/ Warszawy.
             </p>
             <p>
-            Moim celem jest spełnianie marzeń w granicach ich możliwości. Wkładam całe serce w każde, nawet najprostsze ćwiczenie, ale w zamian oczekuję zaangażowania ze strony dzieci  i rodziców.
+            Moim celem jest spełnianie marzeń w&nbsp;granicach&nbsp;ich&nbsp;możliwości. Wkładam całe serce&nbsp;w&nbsp;każde, nawet najprostsze ćwiczenie, ale&nbsp;w&nbsp;zamian oczekuję zaangażowania ze strony dzieci&nbsp;i&nbsp;rodziców.
             </p>
             <ul className="accordion" data-accordion data-allow-all-closed>
               <li className="accordion-item" data-accordion-item >
@@ -48,11 +49,12 @@ class Staff extends React.Component {
                 </a>
                 <div className="accordion-content" data-tab-content>
                   <ul>
-                    <li>08. 2011 – Kinesiobalance</li>
-                    <li>06. 2011 – Thera Suit Method</li>
-                    <li>05. 2011 – Kwalifikacyjny kurs pedagogiczny</li>
-                    <li>04. 2011 – Integracja Sensoryczna II stopień</li>
-                    <li>05. 2010 – Taping Rehabilitacyjny</li>
+                    <li>NDT - Bobath</li>
+                    <li>Kinesiobalance</li>
+                    <li>Thera Suit Method</li>
+                    <li>Kwalifikacyjny kurs pedagogiczny</li>
+                    <li>Integracja Sensoryczna II stopień</li>
+                    <li>Taping Rehabilitacyjny</li>
                 </ul>
                 </div>
               </li>
@@ -68,12 +70,18 @@ class Staff extends React.Component {
             <h3>Aleksandra Ciesielska</h3>
             <h6 >
             
-Jestem absolwentką studiów na kierunku pedagogika specjalna o specjalności logopedia na Akademii Pedagogiki Specjalnej im. Marii Grzegorzewskiej w Warszawie. Obecnie kontynuuję naukę na podyplomowych studiach z zakresu neurologopedii i wczesnego wspomagania rozwoju dziecka w Centrum Kształcenia Podyplomowego Uczelni Łazarskiego. Doświadczenie zawodowe zdobywałam odbywając liczne praktyki oraz pracując jako logopeda w placówkach oświatowych i medycznych.
-            </h6>
+            Jestem absolwentką studiów na kierunku pedagogika specjalna o specjalności logopedia&nbsp;na Akademii Pedagogiki Specjalnej im.&nbsp;Marii&nbsp;Grzegorzewskiej&nbsp;w&nbsp;Warszawie. 
+            Obecnie kontynuuję naukę na&nbsp;podyplomowych studiach z zakresu neurologopedii i wczesnego wspomagania rozwoju dziecka w Centrum Kształcenia Podyplomowego Uczelni Łazarskiego.
+             </h6>
+             <p>
+             Doświadczenie zawodowe zdobywałam odbywając liczne praktyki oraz pracując jako logopeda w placówkach oświatowych&nbsp;i&nbsp;medycznych.
+            
+            
+            Zajmuję się terapią dzieci z różnorakimi zaburzeniami mowy i komunikacji. <br/>W kręgu moich zainteresowań zawodowych szczególne miejsce zajmuje komunikacja alternatywna oraz terapia karmienia. 
+            </p>
             <p>
-            Zajmuję się terapią dzieci z różnorakimi zaburzeniami mowy i komunikacji. W kręgu moich zainteresowań zawodowych szczególne miejsce zajmuje komunikacja alternatywna oraz terapia karmienia. 
-
-Z każdym podopiecznym staram się zbudować więź opartą na wzajemnym zrozumieniu i zaufaniu, dzięki której uda się nam wspólnie osiągnąć jak najlepsze efekty. Zajęcia staram się prowadzić w sposób kreatywny dostosowując zadania do możliwości i zainteresowań pacjentów.  
+              Z każdym podopiecznym staram się zbudować więź opartą na wzajemnym zrozumieniu i zaufaniu, dzięki&nbsp;której uda&nbsp;się&nbsp;nam wspólnie osiągnąć jak&nbsp;najlepsze efekty.
+               <br/>Zajęcia staram się prowadzić w sposób kreatywny dostosowując zadania do&nbsp;możliwości i zainteresowań pacjentów.  
 
             </p>
             <ul className="accordion" data-accordion data-allow-all-closed>
@@ -106,12 +114,14 @@ Z każdym podopiecznym staram się zbudować więź opartą na wzajemnym zrozumi
         <div className="cell medium-7">
             <h3>Agnieszka Czarnecka</h3>
             <h6 >
-              Z wykształcenia jestem pedagogiem specjalnym, wiedzę i praktykę zdobywałam na Akademii Pedagogiki Specjalnej w Warszawie. Z dziećmi niepełnosprawnymi pracuję od 8 lat. W pracy kieruję się dobrem dzieci, staram się dostrzec ich problemy i dostosować terapię do ich potrzeb.
+              Z wykształcenia jestem pedagogiem specjalnym, wiedzę i praktykę zdobywałam na Akademii Pedagogiki Specjalnej w&nbsp;Warszawie.
+              <br/> Z dziećmi niepełnosprawnymi pracuję od&nbsp;8&nbsp;lat. W pracy kieruję się dobrem dzieci, staram się dostrzec ich problemy i&nbsp;dostosować terapię do ich potrzeb.
             </h6>
             <p>
-              Celem prowadzonych przeze mnie zajęć jest usprawnianie małej motoryki, czyli precyzyjnych ruchów dłoni i palców jak i dostarczanie wrażeń dotykowych.
+              Celem prowadzonych przeze mnie zajęć jest usprawnianie małej motoryki, czyli&nbsp;precyzyjnych ruchów dłoni i palców jak i&nbsp;dostarczanie wrażeń dotykowych.
               Są to ćwiczenia i zabawy mające rozwinąć sprawność ruchową ręki dziecka, umiejętności chwytu, czynności manipulacyjnych, koordynację między kończynami, co przekłada się na opanowanie i doskonalenie czynności samoobsługowych, a w późniejszym okresie techniki pisania.
-              Kiedy mamy sprawne ręce jesteśmy w stanie wykonać większość czynności wokół siebie co sprawia że jesteśmy bardziej niezależni, a to z kolei przekłada się na możliwość uczestniczenia w pełni w życiu społecznym.
+              </p>
+              <p>Kiedy mamy sprawne ręce jesteśmy w&nbsp;stanie wykonać większość czynności wokół siebie co sprawia, że jesteśmy bardziej niezależni, a to z kolei przekłada się&nbsp;na&nbsp;możliwość uczestniczenia w pełni w&nbsp;życiu&nbsp;społecznym.
             </p>
             <ul className="accordion" data-accordion data-allow-all-closed>
               <li className="accordion-item" data-accordion-item >
@@ -142,21 +152,21 @@ Z każdym podopiecznym staram się zbudować więź opartą na wzajemnym zrozumi
         <div className="cell medium-7">
             <h3>Marta Filewska</h3>
             <h6 >
-            Jestem magistrem fizjoterapii, absolwentką Wyższej Szkoły Rehabilitacji oraz terapeutą SI,
-absolwentką studiów podyplomowych WSPiA. 
-Pracę z dziećmi rozpoczęłam w 2017 roku, jako fizjoterapeuta, od 2018 również jako
-terapeuta SI. Ciągle dążę do podnoszenia swoich kwalifikacji zawodowych. Obecnie jestem
-na studiach podyplomowych z zakresu Przygotowania Pedagogicznego oraz
-Oligofrenopedagogiki.
+                Jestem magistrem fizjoterapii, absolwentką Wyższej Szkoły Rehabilitacji oraz terapeutą SI,
+                absolwentką studiów podyplomowych WSPiA. 
+                Pracę z dziećmi rozpoczęłam w 2017 roku, jako fizjoterapeuta, od 2018 również jako
+                terapeuta SI. Ciągle dążę do podnoszenia swoich kwalifikacji zawodowych.<br/> Obecnie jestem
+                na studiach podyplomowych z&nbsp;zakresu Przygotowania Pedagogicznego oraz&nbsp;Oligofrenopedagogiki.
             </h6>
-            <p>
-           
-Pracuję z dziećmi z różnymi zaburzeniami – ortopedycznymi , neurologicznymi, z wadami
-genetycznymi, zespołem Aspergera,  autyzmem i zespołem Downa. 
-Doświadczenie zawodowe w zakresie rehabilitacji zdobywałam dzięki licznym praktykom
-oraz jako wolontariusz na obozach dla dzieci niepełnosprawnych. 
-Praca z dziećmi daje mi dużą satysfakcję. Zajęcia prowadzę w sposób kreatywny
-dostosowując ćwiczenia do potrzeb małych pacjentów. 
+            <p>    
+                Pracuję z dziećmi z różnymi zaburzeniami – ortopedycznymi, neurologicznymi, z&nbsp;wadami
+                genetycznymi, zespołem Aspergera,  autyzmem i zespołem Downa. 
+                Doświadczenie zawodowe w zakresie rehabilitacji zdobywałam dzięki licznym praktykom
+                oraz jako wolontariusz na&nbsp;obozach dla dzieci niepełnosprawnych. 
+                </p>
+                <p>
+                Praca z dziećmi daje mi dużą satysfakcję. Zajęcia prowadzę w sposób kreatywny
+                dostosowując ćwiczenia do potrzeb małych pacjentów. 
             </p>
             <ul className="accordion" data-accordion data-allow-all-closed>
               <li className="accordion-item" data-accordion-item >
@@ -172,6 +182,17 @@ Zukunft-Huber</li>
               </li>
           </ul>
           
+        </div>
+      </Section>
+      <Section>
+        <div className="cell medium-5 large-4  text-center">
+            <img className="staff-photo" alt="Agnieszka Świederska" src={aswiderska}></img>
+        </div>
+        <div className="cell medium-7">
+          <h3>Agnieszka Świderska</h3>
+          <h6>
+        Menadżer, serce gabinetu, osoba dzięki której żyjemy 24 h na dobę.<br/>Odpowiada za część oficjalną gabinetu oraz formalności.
+        </h6>
         </div>
       </Section>
       </>

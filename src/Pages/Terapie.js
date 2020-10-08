@@ -51,7 +51,8 @@ class Terapie extends React.Component {
             <h5 className="therapy-description">indywidualne dopasowanie termoplastycznych
              wkładek ortopedycznych<strong> ICB MEDICAL</strong></h5>
            <p>
-           wkładki ortopedyczne są ważnym elementem wspomagania terapii nieprawidłowego ustawienia stóp (a co za tym idzie całej postawy) u dzieci. Pomagają utrwalać efekty uzyskane podczas terapii oraz zapobiegają kompensacjom kończyn dolnych i tułowia.
+           wkładki ortopedyczne są ważnym elementem wspomagania terapii nieprawidłowego ustawienia stóp (&nbsp;a&nbsp;co za tym idzie całej postawy) u dzieci.
+          Pomagają&nbsp;utrwalać efekty uzyskane podczas terapii oraz&nbsp;zapobiegają kompensacjom kończyn dolnych&nbsp;i&nbsp;tułowia.
            </p>
         </div>
        
@@ -85,7 +86,7 @@ class Terapie extends React.Component {
         <h3>terapia w kombinezonie</h3>
       <h5>turnusy z użyciem kombinezonów Therasuit</h5>
             <p >
-                Ćwiczenia w wymiarze 2,5 godzin dziennie, 5 razy w tygodniu w cyklach jedno, dwu i trzytygodniowych. Jest to zindywidualizowany, intensywny program rehabilitacyjny mający na celu rozwój siły i funkcji, czyli niezależności w wykonywaniu codziennych czynności.
+                Ćwiczenia w wymiarze 2,5 godzin dziennie, 5&nbsp;razy&nbsp;w&nbsp;tygodniu w&nbsp;cyklach&nbsp;jedno, dwu&nbsp;i&nbsp;trzytygodniowych. Jest&nbsp;to&nbsp;zindywidualizowany, intensywny program rehabilitacyjny mający na celu rozwój siły i funkcji, czyli niezależności w wykonywaniu codziennych czynności.
                 W terapii wykorzystywane są: kostium rehabilitacyjny TheraSuit oraz Uniwersalny Gabinet Leczniczy. Specjalnie stworzony program pozwala na poprawę wzorców ruchowych oraz przyspieszenie rozwoju motorycznego.
                 </p>
           <ul>

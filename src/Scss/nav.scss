@@ -51,13 +51,13 @@ nav {
       transform: translate3d(0, -100vh, 0);
       opacity: 0;
 
-      li {
+      h6 {
         transform: translate3d(0, 25%, 0);
         opacity: 0;
       }
     }
 
-    li {
+    h6 {
       padding: .5rem;
       will-change: transform, opacity;
       transition: opacity 300ms linear, transform 300ms linear;
@@ -115,7 +115,7 @@ nav {
 
       &.hidden {
         &,
-        li {
+        h6 {
           transform: translate3d(0, 0, 0);
           opacity: 1;
           font-weight: 400;
