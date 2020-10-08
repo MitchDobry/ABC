@@ -21,6 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "react-snap",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
@@ -43,5 +44,8 @@
   "main": "index.js",
   "repository": "git@github.com:MitchDobry/ABC.git",
   "author": "MitchDobry <mitch.dobry.jas@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "react-snap": "^1.23.0"
+  }
 }
