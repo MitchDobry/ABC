@@ -6,6 +6,7 @@ import integracjasenso from '../Assets/integracjasenso.jpg'
 import suit from '../Assets/suit.jpg'
 import feet from '../Assets/feet.jpg'
 import logopeda from '../Assets/logopeda.jpg'
+import badanie from '../Assets/badanie.jpg'
 
 
 class Terapie extends React.Component {
@@ -20,7 +21,7 @@ class Terapie extends React.Component {
       </Section>
       <Section>
         <div className="cell small-12 medium-4 medium-offset-1">
-          <img src={sensoplastyka} alt="reh"></img>
+          <img src={sensoplastyka} alt="rehabilitacja niemowląt"></img>
         </div>
         <div className="cell small-12 medium-5">
             <h3>rehabilitacja dzieci i niemowląt</h3>
@@ -49,7 +50,7 @@ class Terapie extends React.Component {
            </p>
         </div>
         <div className="cell small-12 medium-4 medium-offset-1">
-          <img src={sensoplastyka} alt="Badanie Stóp"></img>
+          <img src={badanie} alt="Badanie Stóp"></img>
         </div>
         </Section>
         <Section>
@@ -78,7 +79,7 @@ class Terapie extends React.Component {
           </ul>
         </div>
         <div className="cell small-12 medium-5 medium-offset-1 ">
-          <img src={integracjasenso} alt="reh"></img>
+          <img src={integracjasenso} alt="integracja sensoryczna"></img>
         </div>
       </Section>
       <Section>
