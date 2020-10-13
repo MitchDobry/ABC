@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "04ac364dc7e261d4b700eb4587150e27",
+    "revision": "e82e787f54babcc84ed8136b448fb5f3",
     "url": "/index.html"
   },
   {
-    "revision": "d3b9f7fb692b3bbd91ac",
-    "url": "/static/css/main.806aaa91.chunk.css"
+    "revision": "e62abf15f860e8502ed2",
+    "url": "/static/css/main.6606d3ba.chunk.css"
   },
   {
-    "revision": "924cb5e4799d4873d976",
-    "url": "/static/js/2.6d1d89a9.chunk.js"
+    "revision": "81e6f909122bc3a72eaa",
+    "url": "/static/js/2.1f7aad45.chunk.js"
   },
   {
     "revision": "ffa35a34964860fdc97ed79ca9abd27c",
-    "url": "/static/js/2.6d1d89a9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.1f7aad45.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d3b9f7fb692b3bbd91ac",
-    "url": "/static/js/main.350eec46.chunk.js"
+    "revision": "e62abf15f860e8502ed2",
+    "url": "/static/js/main.84d0abbd.chunk.js"
   },
   {
     "revision": "23b1029d49ca461f9e8a",
@@ -32,12 +32,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/agnieszka.b219b32d.jpg"
   },
   {
+    "revision": "bd525584c76e5d0f762ef7a6d2250988",
+    "url": "/static/media/ania.bd525584.jpg"
+  },
+  {
     "revision": "3b09a23d66fa46a39503669293ac330d",
     "url": "/static/media/aswiderska.3b09a23d.jpg"
   },
   {
     "revision": "8883378adce92dfef829a1bb7a287424",
     "url": "/static/media/facebook-f-brands.8883378a.svg"
+  },
+  {
+    "revision": "3ce602a33df61fb232e60319603f57b2",
+    "url": "/static/media/feet.3ce602a3.jpg"
   },
   {
     "revision": "2a3c056cccb82501c5dcbeb2c287c096",
@@ -56,8 +64,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo2.1a5179ad.svg"
   },
   {
-    "revision": "f85efaf7b7883d5bd9361a1c20558482",
-    "url": "/static/media/marta.f85efaf7.jpg"
+    "revision": "cdca05e4e1bea693435c44e9edddc003",
+    "url": "/static/media/logopeda.cdca05e4.jpg"
+  },
+  {
+    "revision": "02991525aecf1ac30affe487037bc643",
+    "url": "/static/media/marta.02991525.jpg"
   },
   {
     "revision": "a89599cc761ebcfb3221b26590ccbdbc",
