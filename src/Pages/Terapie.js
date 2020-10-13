@@ -1,21 +1,14 @@
 import React from 'react';
 import Section from '../Section'
-import $ from "jquery";
-import { Accordion } from "foundation-sites";
 import reka from '../Assets/reka.jpg'
 import sensoplastyka from '../Assets/sensoplastyka.jpg'
 import integracjasenso from '../Assets/integracjasenso.jpg'
 import suit from '../Assets/suit.jpg'
+import feet from '../Assets/feet.jpg'
+import logopeda from '../Assets/logopeda.jpg'
 
 
 class Terapie extends React.Component {
-
-  componentDidMount() {
-    new Accordion($(".accordion"), {
-      slideSpeed: 500,
-      multiExpand: true
-    });
-}
 
   render (){
     return (
@@ -47,7 +40,7 @@ class Terapie extends React.Component {
       </Section>
       <Section>
         <div className="cell small-12 medium-8  large-5 large-offset-1">
-            <h3>Badanie<br/> stóp</h3>
+            <h3>Badanie stóp</h3>
             <h5 className="therapy-description">indywidualne dopasowanie termoplastycznych
              wkładek ortopedycznych<strong> ICB MEDICAL</strong></h5>
            <p>
@@ -55,8 +48,15 @@ class Terapie extends React.Component {
           Pomagają&nbsp;utrwalać efekty uzyskane podczas terapii oraz&nbsp;zapobiegają kompensacjom kończyn dolnych&nbsp;i&nbsp;tułowia.
            </p>
         </div>
-       
-        <div className="cell small-12 medium-8  large-5" >
+        <div className="cell small-12 medium-4 medium-offset-1">
+          <img src={sensoplastyka} alt="Badanie Stóp"></img>
+        </div>
+        </Section>
+        <Section>
+        <div className="cell small-12 medium-4 medium-offset-1">
+          <img src={feet} alt="Terapia stóp"></img>
+        </div>
+        <div className="cell small-12 medium-8  large-5 large-offset-1" >
             <h3> terapia trójpłaszczyznowa</h3>
             <h4 className="therapy-description">manualna terapia stóp na podstawach neurofizjologicznych wg Barbary Zukunft-Huber</h4>
           <ul>
@@ -66,10 +66,7 @@ class Terapie extends React.Component {
         </div>
       </Section>
       <Section>
-      <div className="cell small-12 medium-4 medium-offset-1 ">
-          <img src={integracjasenso} alt="reh"></img>
-        </div>
-        <div className="cell small-12 medium-7">
+        <div className="cell small-12 medium-5 medium-offset-1">
             <h3>integracja Sensoryczna</h3>
             <ul>
               <li>Nadpobudliwość ruchowa </li>
@@ -79,6 +76,9 @@ class Terapie extends React.Component {
               <li>Opóźnienie rozwoju psychomotorycznego</li>
               <li>Zaburzenia mowy</li>
           </ul>
+        </div>
+        <div className="cell small-12 medium-5 medium-offset-1 ">
+          <img src={integracjasenso} alt="reh"></img>
         </div>
       </Section>
       <Section>
@@ -121,7 +121,7 @@ class Terapie extends React.Component {
         </div>
       </Section>
       <Section>
-        <div className="cell small-12 medium-7 medium-offset-1">
+        <div className="cell small-12 medium-6 medium-offset-1">
             <h3>Funkcjonalna terapia ręki</h3>
           <ul>
             <li>Poprawa zdolności manualnych</li>
@@ -129,12 +129,15 @@ class Terapie extends React.Component {
             <li>Nauka prawidłowego chwytu</li>
           </ul>
         </div>
-        <div className="cell small-12 medium-3">
+        <div className="cell small-12 medium-4">
           <img  src={reka} alt="terapia ręki"></img>
         </div>
       </Section>
       <Section>
-        <div className="cell small-12 medium-5 large-4">
+      <div className="cell small-12 medium-4 medium-offset-1">
+          <img  src={logopeda} alt="Terapia logopedyczna"></img>
+        </div>
+      <div className="cell small-12 medium-5 large-4">
             <h3> logopedyczna</h3>
            <ul>
              <li>Dyslalia</li>
@@ -148,7 +151,9 @@ class Terapie extends React.Component {
              <li>Zajęcia logarytmiczne</li>
            </ul>
         </div>
-        <div className="cell small-12 medium-5 large-4">
+      </Section>
+      <Section>
+        <div className="cell small-12 medium-5 large-4 large-offset-1">
             <h3>pedagogiczna</h3>
           <ul>
             <li>Reedukacja Dysleksji</li>

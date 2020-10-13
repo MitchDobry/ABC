@@ -7,6 +7,7 @@ import Agnieszka from '../Assets/agnieszka.jpg'
 import ola from '../Assets/Olaciesielska.jpg'
 import martaf from '../Assets/martf.jpg'
 import aswiderska from '../Assets/aswiderska.jpg'
+import aniasidor from '../Assets/ania.jpg'
 
 class Staff extends React.Component {
   componentDidMount() {
@@ -23,7 +24,6 @@ class Staff extends React.Component {
             <h2>nasz personel</h2>
           </div>
         </Section>
-       
         <Section>
         <div className="cell medium-5 large-4  text-center">
           <img className="staff-photo" alt="staff" src={Marta}></img>
@@ -59,7 +59,17 @@ class Staff extends React.Component {
                 </div>
               </li>
           </ul>
-          
+        </div>
+      </Section>
+      <Section>
+        <div className="cell medium-5 large-4  text-center">
+            <img className="staff-photo" alt="Agnieszka Świederska" src={aswiderska}></img>
+        </div>
+        <div className="cell medium-7">
+          <h3>Agnieszka Świderska</h3>
+          <h6>
+        Menadżer, serce gabinetu, osoba dzięki której żyjemy 24 h na dobę.<br/>Odpowiada za część oficjalną gabinetu oraz formalności.
+        </h6>
         </div>
       </Section>
       <Section>
@@ -186,13 +196,49 @@ Zukunft-Huber</li>
       </Section>
       <Section>
         <div className="cell medium-5 large-4  text-center">
-            <img className="staff-photo" alt="Agnieszka Świederska" src={aswiderska}></img>
+          <img className="staff-photo" alt="Anna Sidor" src={aniasidor}></img>
         </div>
         <div className="cell medium-7">
-          <h3>Agnieszka Świderska</h3>
-          <h6>
-        Menadżer, serce gabinetu, osoba dzięki której żyjemy 24 h na dobę.<br/>Odpowiada za część oficjalną gabinetu oraz formalności.
-        </h6>
+            <h3>Anna Sidor</h3>
+            <h6 >
+            Nazywam się Anna Sidor i jestem
+            magistrem fizjoterapii. Od dawna fascynuję się rozwojem dziecka od jego poczęcia&nbsp;aż po kolejne kroki
+            w&nbsp;rozwoju psychomotorycznym.<br/>Dlatego skończyłam studia na kierunku fizjoterapia ze specjalnością:
+            Pediatria.
+            </h6>
+            <p>    
+            W trakcie trwania studiów zgłębiałam tajniki prowadzenia terapii Integracji Sensorycznej.
+            Podczas różnych szkoleń zdobywałam wiedzę na temat aktywności fizycznej kobiet w ciąży i po
+            porodzie oraz&nbsp;jak walczyć z dolegliwościami poporodowymi tj. nietrzymanie moczu, rozejście mięśnia
+            prostego brzucha, blizna po cesarskim cięciu i wiele innych. Uważam, że szczęśliwa Mama to&nbsp;również&nbsp;szczęśliwe&nbsp;Dziecko.
+                </p>
+                <p>
+                W rozwoju ruchowym dziecka najważniejszy jest pierwszy rok, w&nbsp;którym&nbsp;zdobywa
+                ono najwięcej umiejętności. Oferuję pomoc przy nauce prawidłowej pielęgnacji maluszka oraz&nbsp;wspomaganiu dążenia do&nbsp;kolejnych&nbsp;kroków milowych w&nbsp;rozwoju&nbsp;psychoruchowym&nbsp;dziecka.
+            </p>
+            <ul className="accordion" data-accordion data-allow-all-closed>
+              <li className="accordion-item" data-accordion-item >
+                <a href="#" className="accordion-title">
+                <h5>kursy i szkolenia</h5>
+                </a>
+                <div className="accordion-content" data-tab-content>
+                <ul>
+                  <li>Warsztaty: Mięśnie dna miednicy- anatomia, funkcje i połączenie z oddechem</li>
+                  <li>Aktywność fizyczna kobiet w ciąży</li>
+                  <li>Kinesiology Taping- kurs podstawowy</li>
+                  <li>Blizna- terapia kompleksowa</li>
+                  <li>Badanie i dokumentacja medyczna w fizjoterapii</li>
+                  <li>Warsztaty: Kinesiology Taping w ciąży</li>
+                  <li>Aktywność fizyczna kobiet po porodzie</li>
+                  <li>Masaż Shantala dla dziecka</li>
+                  <li>Fizjoterapia w nietrzymaniu moczu i stolca oraz w obniżeniu miednicy mniejszej- moduł I</li>
+                  <li>Ocena funkcjonalna i prowadzenie dokumentacji medycznej dla pacjentów w wieku
+                      rozwojowym</li>
+                </ul>
+                </div>
+              </li>
+          </ul>
+          
         </div>
       </Section>
       </>
