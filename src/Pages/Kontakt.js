@@ -8,16 +8,6 @@ return(
         <div className="cell text-center marginer">
             <h2>kontakt</h2>
         </div>
-        <div style={{marginTop:'0'}} className="cell text-center  medium-4 ">
-        <h4>Telefon</h4>
-        <button className="button small button-contact">
-                <a href="tel:607334050">
-                    zadzwoń
-                </a>
-            </button>
-           <h5><a href="tel:607334050"> +48 607-33-40-50</a></h5> 
-
-        </div>
         <div style={{marginTop:'0'}} className="cell text-center medium-4  ">
             <h4>Adres</h4>
             <button className="button small button-contact">
@@ -25,7 +15,7 @@ return(
                     znajdź nas
                 </a>
             </button>
-            <h5>05-077 Warszawa - Wesoła</h5>
+            <h5>Warszawa - Wesoła <br/>05-077 </h5>
             <h5>ul. Jesionowa 2</h5>
            
         </div>
@@ -38,6 +28,16 @@ return(
             </button>
             <a href="mailto:abcterapiidziecka@gmail.com"><h6>abcterapiidziecka@gmail.com</h6></a>
            
+        </div>
+        <div style={{marginTop:'0'}} className="cell text-center  medium-4 ">
+        <h4>Telefon</h4>
+        <button className="button small button-contact">
+                <a href="tel:607334050">
+                    zadzwoń
+                </a>
+            </button>
+           <h5><a href="tel:607334050"> +48 607-33-40-50</a></h5> 
+
         </div>
         <div className="cell medium-4">
         <table>

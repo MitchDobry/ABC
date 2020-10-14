@@ -35,7 +35,7 @@ function App() {
 }
 
 const Home = () => (
-  <div>
+  <div className="main">
   <header>
   <div className="bg">
   <div className="grid-container">
@@ -69,7 +69,7 @@ const Home = () => (
       Indywidualne podejście, kreatywność terapeutów,
       specjalnie zaadaptowane sale oraz&nbsp;przemyślany program ćwiczeń
       da&nbsp;Państwu satysfakcję i przekonanie, że&nbsp;podjęliście właściwą
-      decyzję wybierając naszą ofertę.<br></br> <strong>ABC Terapii Dziecka</strong> to&nbsp;miejsce
+      decyzję wybierając&nbsp;naszą ofertę.<br></br> <strong>ABC Terapii Dziecka</strong> to&nbsp;miejsce
       dla Ciebie i&nbsp;Twojej&nbsp;pociechy. 
       </h4>
       <a href="mailto:abcterapiidziecka@gmail.com">

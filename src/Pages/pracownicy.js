@@ -6,7 +6,7 @@ import Marta from '../Assets/marta.jpg'
 import Agnieszka from '../Assets/agnieszka.jpg'
 import ola from '../Assets/Olaciesielska.jpg'
 import martaf from '../Assets/martf.jpg'
-import aswiderska from '../Assets/aswiderska.jpg'
+import aswiderska from '../Assets/agnieszkas.jpg'
 import aniasidor from '../Assets/ania.jpg'
 
 class Staff extends React.Component {

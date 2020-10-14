@@ -7,6 +7,9 @@ import suit from '../Assets/suit.jpg'
 import feet from '../Assets/feet.jpg'
 import logopeda from '../Assets/logopeda.jpg'
 import badanie from '../Assets/badanie.jpg'
+import spidersuit from '../Assets/spidersuit.jpg'
+import exercise from '../Assets/exercise.jpg'
+import kinesio from '../Assets/kinesiotaping.jpg'
 
 
 class Terapie extends React.Component {
@@ -20,11 +23,11 @@ class Terapie extends React.Component {
         </div>
       </Section>
       <Section>
-        <div className="cell small-12 medium-4 medium-offset-1">
+        <div className="cell medium-4 large-offset-1">
           <img src={sensoplastyka} alt="rehabilitacja niemowląt"></img>
         </div>
-        <div className="cell small-12 medium-5">
-            <h3>rehabilitacja dzieci i niemowląt</h3>
+        <div className="cell medium-5 medium-offset-1 large-offset-2">
+            <h3>rehabilitacja dzieci i&nbsp;niemowląt</h3>
             <ul>
               <li>Mózgowe porażenie dziecięce</li>
               <li>Zespoły genetyczne</li>
@@ -40,7 +43,7 @@ class Terapie extends React.Component {
         </div>
       </Section>
       <Section>
-        <div className="cell small-12 medium-8  large-5 large-offset-1">
+        <div className="cell medium-6 large-5 large-offset-1">
             <h3>Badanie stóp</h3>
             <h5 className="therapy-description">indywidualne dopasowanie termoplastycznych
              wkładek ortopedycznych<strong> ICB MEDICAL</strong></h5>
@@ -49,15 +52,15 @@ class Terapie extends React.Component {
           Pomagają&nbsp;utrwalać efekty uzyskane podczas terapii oraz&nbsp;zapobiegają kompensacjom kończyn dolnych&nbsp;i&nbsp;tułowia.
            </p>
         </div>
-        <div className="cell small-12 medium-4 medium-offset-1">
+        <div className="cell medium-5 medium-offset-1">
           <img src={badanie} alt="Badanie Stóp"></img>
         </div>
         </Section>
         <Section>
-        <div className="cell small-12 medium-4 medium-offset-1">
+        <div className="cell medium-4 large-offset-1">
           <img src={feet} alt="Terapia stóp"></img>
         </div>
-        <div className="cell small-12 medium-8  large-5 large-offset-1" >
+        <div className="cell medium-8  large-5 large-offset-1" >
             <h3> terapia trójpłaszczyznowa</h3>
             <h4 className="therapy-description">manualna terapia stóp na podstawach neurofizjologicznych wg Barbary Zukunft-Huber</h4>
           <ul>
@@ -67,7 +70,7 @@ class Terapie extends React.Component {
         </div>
       </Section>
       <Section>
-        <div className="cell small-12 medium-5 medium-offset-1">
+        <div className="cell small-12 medium-5 large-offset-1">
             <h3>integracja Sensoryczna</h3>
             <ul>
               <li>Nadpobudliwość ruchowa </li>
@@ -78,17 +81,30 @@ class Terapie extends React.Component {
               <li>Zaburzenia mowy</li>
           </ul>
         </div>
-        <div className="cell small-12 medium-5 medium-offset-1 ">
+        <div className="cell small-12 medium-6 medium-offset-1 large-5">
           <img src={integracjasenso} alt="integracja sensoryczna"></img>
         </div>
       </Section>
       <Section>
-        <div className="cell small-12 medium-5 medium-offset-1">
-        <h3>terapia w kombinezonie</h3>
-      <h5>turnusy z użyciem kombinezonów Therasuit</h5>
+      <div className="cell text-center">
+      <h3>terapia w kombinezonach</h3>
+      </div>
+      <div className="cell medium-5 medium-offset-1">
+          <img src={suit} alt="Kombinezon Therasuit"></img>
+        </div>
+        <div className="cell medium-5 medium-offset-1">
+      <h5>turnusy z użyciem kombinezonów Therasuit i Spidersuit</h5>
             <p >
-                Ćwiczenia w wymiarze 2,5 godzin dziennie, 5&nbsp;razy&nbsp;w&nbsp;tygodniu w&nbsp;cyklach&nbsp;jedno, dwu&nbsp;i&nbsp;trzytygodniowych. Jest&nbsp;to&nbsp;zindywidualizowany, intensywny program rehabilitacyjny mający na celu rozwój siły i funkcji, czyli niezależności w wykonywaniu codziennych czynności.
-                W terapii wykorzystywane są: kostium rehabilitacyjny TheraSuit oraz Uniwersalny Gabinet Leczniczy. Specjalnie stworzony program pozwala na poprawę wzorców ruchowych oraz przyspieszenie rozwoju motorycznego.
+                Ćwiczenia w wymiarze 2,5 godzin dziennie, 5&nbsp;razy&nbsp;w&nbsp;tygodniu w&nbsp;cyklach&nbsp;jedno,
+                dwu&nbsp;i&nbsp;trzytygodniowych. Jest&nbsp;to&nbsp;zindywidualizowany,
+                intensywny program rehabilitacyjny mający na celu rozwój siły i funkcji,
+                czyli niezależności w wykonywaniu codziennych czynności.
+                </p>
+        </div>
+        <div className="cell medium-5 large-offset-1">
+              <p>
+                W&nbsp;terapii wykorzystywane są: kostium rehabilitacyjny TheraSuit oraz&nbsp; Spidersuit.
+                 Specjalnie stworzony program pozwala na poprawę wzorców ruchowych oraz&nbsp;przyspieszenie rozwoju&nbsp;motorycznego.
                 </p>
           <ul>
             <li>Mózgowe porażenie dziecięce</li>
@@ -98,47 +114,52 @@ class Terapie extends React.Component {
             <li>Choroby układu nerwowo-mięśniowego</li>
           </ul>
         </div>
-        <div className="cell small-12 medium-6 ">
-          <img src={suit} alt="Kombinezon Therasuit"></img>
+        <div className="cell small-12 medium-5 medium-offset-1 large-offset-1">
+          <img src={spidersuit} alt="Kombinezon Spidersuit"></img>
         </div>
       </Section>
       <Section>
+      <div className="cell small-12 medium-5 medium-offset-1 large-offset-1">
+          <img src={exercise} alt="Korekacja wad postawy"></img>
+        </div>
       <div className="cell small-12 medium-5 medium-offset-1">
             <h3>Korekcja wad postawy</h3>
            <ul>
-             <li>Wady i zniekształcenia stóp</li>
              <li>Wady i zniekształcenia stóp</li>
              <li>Skoliozy</li>
              <li>Koślawość/ szpotawość kolan</li>
              <li>Inne wady postawy</li>
            </ul>
       </div>
-      <div className="cell small-12 medium-5">
+      </Section>
+      <Section>
+      <div className="cell small-12 medium-5 large-offset-1">
       <h3>Kinesiotaping</h3>
           <ul>
             <li>Korekcja wad postawy</li>
             <li>Wspomaganie pracy mięśni</li>
           </ul>
         </div>
+        <div className="cell medium-4 medium-offset-1 large-offset-1">
+          <img src={kinesio} alt="Kinesiotaping"></img>
+        </div>
       </Section>
       <Section>
-        <div className="cell small-12 medium-6 medium-offset-1">
-            <h3>Funkcjonalna terapia ręki</h3>
+      <div className="cell medium-4 large-offset-1">
+          <img  src={reka} alt="terapia ręki"></img>
+        </div>
+        <div className="cell medium-5 medium-offset-2">
+            <h3>Funkcjonalna <br/>terapia ręki</h3>
           <ul>
             <li>Poprawa zdolności manualnych</li>
             <li>Przygotowanie do funkcji szkolnych</li>
             <li>Nauka prawidłowego chwytu</li>
           </ul>
         </div>
-        <div className="cell small-12 medium-4">
-          <img  src={reka} alt="terapia ręki"></img>
-        </div>
+        
       </Section>
       <Section>
-      <div className="cell small-12 medium-4 medium-offset-1">
-          <img  src={logopeda} alt="Terapia logopedyczna"></img>
-        </div>
-      <div className="cell small-12 medium-5 large-4">
+      <div className="cell medium-5 large-4 large-offset-1">
             <h3> logopedyczna</h3>
            <ul>
              <li>Dyslalia</li>
@@ -152,18 +173,21 @@ class Terapie extends React.Component {
              <li>Zajęcia logarytmiczne</li>
            </ul>
         </div>
+        <div className="cell medium-4 medium-offset-2">
+          <img  src={logopeda} alt="Terapia logopedyczna"></img>
+        </div>
       </Section>
       <Section>
-        <div className="cell small-12 medium-5 large-4 large-offset-1">
-            <h3>pedagogiczna</h3>
+        <div className="cell small-12 medium-6 large-4 large-offset-1">
+            <h4>pedagogiczna</h4>
           <ul>
             <li>Reedukacja Dysleksji</li>
             <li>Usprawnianie czynności analizatorów: słuchowego, wzrokowego i kinestetyczno-ruchowego</li>
             <li>Eliminowanie niepowodzeń szkolnych</li>
           </ul>
         </div>
-        <div className="cell small-12 medium-5 large-4">
-            <h3> psychologiczna</h3>
+        <div className="cell small-12 medium-6 large-4 large-offset-2">
+            <h4> psychologiczna</h4>
            <ul>
              <li>Ocena rozwoju dziecka i gotowości szkolnej</li>
              <li>Problemy wychowawcze</li>

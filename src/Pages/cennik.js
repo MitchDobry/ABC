@@ -7,8 +7,12 @@ function PriceList() {
       <Section>
         <div className="cell text-center marginer">
           <h2>Cennik</h2>
+          <h4>ABC Terapii Dziecka s.c. Marta Dusińska, Przemysław Dusiński</h4>
+          <h4>ul. Jesionowa 2,
+              05-077 Warszawa-Wesoła
+          </h4>
           <h6>Nr rachunku bankowego:
-              BRE BANK 68 1140 2004 0000 3602 7404 7901</h6>
+              mBANK 52 1140 2004 0000 3102 8048 6518</h6>
         </div>
         </Section>
         <Section>

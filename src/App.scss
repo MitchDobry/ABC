@@ -138,3 +138,24 @@ td{
     padding: 1rem;
   }
 }
+@include breakpoint(large){
+  p, li, h6{
+    font-size: 1.4rem;
+  }
+  .bg{
+    padding: 4rem;
+  }
+
+
+}
+@media screen and (min-width: 1900px) {
+  .main {
+    height: 1470px;
+  }
+  header{
+    margin-bottom: 200px;
+  }
+  table{
+    margin-bottom: 350px;
+  }
+}
