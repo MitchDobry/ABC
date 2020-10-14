@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.6606d3ba.chunk.css",
-    "main.js": "/static/js/main.b548f806.chunk.js",
-    "main.js.map": "/static/js/main.b548f806.chunk.js.map",
+    "main.css": "/static/css/main.65640602.chunk.css",
+    "main.js": "/static/js/main.6b9e294b.chunk.js",
+    "main.js.map": "/static/js/main.6b9e294b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.99fde877.js",
     "runtime-main.js.map": "/static/js/runtime-main.99fde877.js.map",
-    "static/js/2.1fe385d0.chunk.js": "/static/js/2.1fe385d0.chunk.js",
-    "static/js/2.1fe385d0.chunk.js.map": "/static/js/2.1fe385d0.chunk.js.map",
+    "static/js/2.32c5e9db.chunk.js": "/static/js/2.32c5e9db.chunk.js",
+    "static/js/2.32c5e9db.chunk.js.map": "/static/js/2.32c5e9db.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ac8db8a58f2d6086d9cf6ef982b05c40.js": "/precache-manifest.ac8db8a58f2d6086d9cf6ef982b05c40.js",
+    "precache-manifest.8c743a812a80d99ac30c1eadb39b625a.js": "/precache-manifest.8c743a812a80d99ac30c1eadb39b625a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.6606d3ba.chunk.css.map": "/static/css/main.6606d3ba.chunk.css.map",
-    "static/js/2.1fe385d0.chunk.js.LICENSE.txt": "/static/js/2.1fe385d0.chunk.js.LICENSE.txt",
+    "static/css/main.65640602.chunk.css.map": "/static/css/main.65640602.chunk.css.map",
+    "static/js/2.32c5e9db.chunk.js.LICENSE.txt": "/static/js/2.32c5e9db.chunk.js.LICENSE.txt",
     "static/media/Olaciesielska.jpg": "/static/media/Olaciesielska.c17e66e0.jpg",
     "static/media/agnieszka.jpg": "/static/media/agnieszka.b219b32d.jpg",
+    "static/media/agnieszkas.jpg": "/static/media/agnieszkas.e18b43de.jpg",
     "static/media/ania.jpg": "/static/media/ania.bd525584.jpg",
-    "static/media/aswiderska.jpg": "/static/media/aswiderska.3b09a23d.jpg",
     "static/media/badanie.jpg": "/static/media/badanie.acbcf1ac.jpg",
+    "static/media/exercise.jpg": "/static/media/exercise.b6818719.jpg",
     "static/media/facebook-f-brands.svg": "/static/media/facebook-f-brands.8883378a.svg",
     "static/media/feet.jpg": "/static/media/feet.3ce602a3.jpg",
     "static/media/integracjasenso.jpg": "/static/media/integracjasenso.2a3c056c.jpg",
+    "static/media/kinesiotaping.jpg": "/static/media/kinesiotaping.10761598.jpg",
     "static/media/localfront.jpg": "/static/media/localfront.6fb09c74.jpg",
     "static/media/logo.svg": "/static/media/logo.0929a958.svg",
     "static/media/logo2.svg": "/static/media/logo2.1a5179ad.svg",
@@ -28,12 +30,13 @@
     "static/media/martf.jpg": "/static/media/martf.a89599cc.jpg",
     "static/media/reka.jpg": "/static/media/reka.0a2c39c8.jpg",
     "static/media/sensoplastyka.jpg": "/static/media/sensoplastyka.9aa089e6.jpg",
+    "static/media/spidersuit.jpg": "/static/media/spidersuit.46c47c09.jpg",
     "static/media/suit.jpg": "/static/media/suit.918529db.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.99fde877.js",
-    "static/js/2.1fe385d0.chunk.js",
-    "static/css/main.6606d3ba.chunk.css",
-    "static/js/main.b548f806.chunk.js"
+    "static/js/2.32c5e9db.chunk.js",
+    "static/css/main.65640602.chunk.css",
+    "static/js/main.6b9e294b.chunk.js"
   ]
 }

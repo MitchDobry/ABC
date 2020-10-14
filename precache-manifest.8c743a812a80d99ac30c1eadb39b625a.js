@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a641de3afb23df7132249e50c06d06ea",
+    "revision": "3545f066903033a7d8a16f11700c7ea2",
     "url": "/index.html"
   },
   {
-    "revision": "b1a9116e132e72c4c77f",
-    "url": "/static/css/main.6606d3ba.chunk.css"
+    "revision": "b2e3e5481af51cbf5d33",
+    "url": "/static/css/main.65640602.chunk.css"
   },
   {
-    "revision": "4b949bce7b53b6a6676b",
-    "url": "/static/js/2.1fe385d0.chunk.js"
+    "revision": "ed9c5d0d777e6613945a",
+    "url": "/static/js/2.32c5e9db.chunk.js"
   },
   {
     "revision": "ffa35a34964860fdc97ed79ca9abd27c",
-    "url": "/static/js/2.1fe385d0.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.32c5e9db.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b1a9116e132e72c4c77f",
-    "url": "/static/js/main.b548f806.chunk.js"
+    "revision": "b2e3e5481af51cbf5d33",
+    "url": "/static/js/main.6b9e294b.chunk.js"
   },
   {
     "revision": "b55b1e2884e0a5e4a819",
@@ -32,16 +32,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/agnieszka.b219b32d.jpg"
   },
   {
+    "revision": "e18b43ded783f0a399938581ea9b4e28",
+    "url": "/static/media/agnieszkas.e18b43de.jpg"
+  },
+  {
     "revision": "bd525584c76e5d0f762ef7a6d2250988",
     "url": "/static/media/ania.bd525584.jpg"
   },
   {
-    "revision": "3b09a23d66fa46a39503669293ac330d",
-    "url": "/static/media/aswiderska.3b09a23d.jpg"
-  },
-  {
     "revision": "acbcf1acd964e93cca6a66627cbc5803",
     "url": "/static/media/badanie.acbcf1ac.jpg"
+  },
+  {
+    "revision": "b6818719e038d4fe7c14a6184f3cdd2e",
+    "url": "/static/media/exercise.b6818719.jpg"
   },
   {
     "revision": "8883378adce92dfef829a1bb7a287424",
@@ -54,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2a3c056cccb82501c5dcbeb2c287c096",
     "url": "/static/media/integracjasenso.2a3c056c.jpg"
+  },
+  {
+    "revision": "1076159882be4c122746fc27f45a1038",
+    "url": "/static/media/kinesiotaping.10761598.jpg"
   },
   {
     "revision": "6fb09c74ad5c47a3990d9cbdb8b65e92",
@@ -86,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9aa089e6a0012ec72562851bb8173f28",
     "url": "/static/media/sensoplastyka.9aa089e6.jpg"
+  },
+  {
+    "revision": "46c47c09b7bae7661cf7586f6e5ebaa6",
+    "url": "/static/media/spidersuit.46c47c09.jpg"
   },
   {
     "revision": "918529db42b03255c4732e54f5350bb4",
