@@ -29,7 +29,7 @@ function PriceList() {
               <tr>
                 <td>Rehabilitacja ruchowa dzieci i niemowląt</td>
                 <td>45/60 min</td>
-                <td>100/150 PLN</td>
+                <td>100/130 PLN</td>
               </tr>
               <tr>
                 <td>Integracja sensoryczna</td>

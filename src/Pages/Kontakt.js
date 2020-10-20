@@ -40,7 +40,7 @@ return(
 
         </div>
         <div className="cell medium-4">
-        <table>
+        <table className="tabletime">
                 <thead className="text-left">
                 <tr>
                     <th width="150">Dzień</th>
