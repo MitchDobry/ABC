@@ -29,7 +29,7 @@ function Footer() {
       <div className="grid-container">
         <div className="grid-x">
           <div className="cell text-center">
-            <p>&copy; ABCterapiidziecka 2020 by Dobry</p>
+            <p>&copy; ABCterapiidziecka 2020</p>
           </div>
         </div>
       </div>
