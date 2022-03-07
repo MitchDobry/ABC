@@ -51,6 +51,7 @@ const Home = () => (
            zadzwoń
           </button>
           </a> 
+        <h6 style={{color:'grey'}}>Kontakt telefoniczny z recepcją jest od godziny 14. Przed godziną 14 prosimy o smsy i oddzwonimy.</h6>
       </div>
       <div className="cell medium-6 right">
       </div>
